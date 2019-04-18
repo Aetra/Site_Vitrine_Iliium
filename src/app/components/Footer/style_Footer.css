@@ -1,0 +1,53 @@
+.wn-footer {
+text-align: center;
+color: white;
+background-color: #303030;
+font-size: 15px;
+}
+hr
+{
+  background-color: #ECF8DD;
+  border: none;
+  width: 50%;
+  height: 1px;
+}
+.menu-item
+{
+  color:white;
+}
+.home-logo
+{
+  padding-right: 4%;
+  width: 16vw;
+}
+.linkbl
+{
+  color: white;
+  padding-left: 45%;
+}
+/* Styles pour téléphones */
+@media (min-width:310px) and (max-width: 460px)
+{
+  .wn-footer {
+  text-align: center;
+  color: white;
+  background-color: #303030;
+  font-size: 10px;
+  }
+  .home-logo
+  {
+    margin-left: 6%;
+    width: 41vw;
+  }
+  .blMenu
+  {
+    margin-top: 2%;
+  }
+
+}
+/* Styles pour les tablettes */
+@media (min-width:460px) and (max-width: 768px) {
+
+
+
+      }
