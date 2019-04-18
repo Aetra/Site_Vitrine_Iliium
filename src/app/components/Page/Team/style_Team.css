@@ -1,3 +1,9 @@
+
+#canvas
+{
+  padding: 10% 0 0 6%;
+  width:51vw;
+}
 .stTeam
 {
   height: 58.594vw;
@@ -14,7 +20,7 @@
 .txtUnderCrux
 {
   padding-left: 2%;
-  font-size:10px;
+  font-size:17px;
 }
 .cruxRo
 {
@@ -33,6 +39,34 @@
   background-image:linear-gradient(#323635,#322f2f);
   transform: skewY(-70deg);
   transform:skewX(-22deg);
+  transform-origin: top left;
+}
+.obliqueOne
+{
+  position: absolute;
+  top: 40%;
+  bottom: 0;
+  left:55%;
+  right: 0;
+  max-width:1vw;
+  max-height:16vw;
+  background-image:linear-gradient(#0a0a09, #1a1616);
+  transform: skewY(0deg);
+  transform:skewX(53deg);
+  transform-origin: top left;
+}
+.obliqueTwo
+{
+  position: absolute;
+  top: 70%;
+  bottom: 0;
+  right: 0;
+  left: 74%;
+  max-width:1vw;
+  max-height:14vw;
+  background-image:linear-gradient(#0a0a09, #1a1616);
+  transform: skewY(0deg);
+  transform:skewX(-58deg);
   transform-origin: top left;
 }
 .titleOurTeam
@@ -59,14 +93,42 @@
   border-color: white !important;
   border-radius:49px !important;
 }
+.circleJulien
+{
+  width:11vw;
+}
+.circleMaxime
+{
+  width:11vw;
+}
+.circleEric
+{
+  width:11vw;
+}
+
+.circle_size1
+{
+  padding-top: 7%;
+  padding-left: 8%;
+}
+.circle_size2
+{
+  padding-top: 11%;
+  padding-left: 35%;
+}
+.circle_size3
+{
+  padding-top: 3%;
+  padding-left: 2%;
+}
+
 
 /* Styles pour téléphones */
-@media (max-width: 325px)
+@media (min-width:310px) and (max-width: 325px)
 {
   .btnStart
   {
     text-align:center !important;
-
     margin-left: 3%;
     font-size: 1.3vw !important;
     width:23vw !important;
@@ -84,17 +146,31 @@
   {
     font-size:5.7px;
   }
+  #canvas
+  {
+    padding: 35% 0 0 6%;
+  }
 
 }
 /* Styles pour les tablettes */
-@media (max-width: 768px) {
+@media (min-width:380px) and (max-width: 768px) {
     .btnStart
     {
       margin-left: 1%;
       width:18vw;
       font-size: 1.8vw !important;
-
     }
+    .txtUnderCrux
+    {
+      font-size:12.7px;
+    }
+
+    #canvas
+    {
+      padding: 17% 0 0 6%;
+      width:51vw;
+    }
+
 
     }
 /* Styles pour les écrans moyens et grands */
