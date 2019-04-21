@@ -44,11 +44,11 @@
 .obliqueOne
 {
   position: absolute;
-  top: 40%;
+  top: 42%;
   bottom: 0;
-  left:55%;
+  left:57%;
   right: 0;
-  max-width:1vw;
+  max-width:1.2vw;
   max-height:16vw;
   background-image:linear-gradient(#0a0a09, #1a1616);
   transform: skewY(0deg);
@@ -61,12 +61,12 @@
   top: 70%;
   bottom: 0;
   right: 0;
-  left: 74%;
-  max-width:1vw;
+  left: 77%;
+  max-width:1.5vw;
   max-height:14vw;
   background-image:linear-gradient(#0a0a09, #1a1616);
   transform: skewY(0deg);
-  transform:skewX(-58deg);
+  transform:skewX(-63deg);
   transform-origin: top left;
 }
 .titleOurTeam
@@ -92,89 +92,203 @@
   color: #615f67!important;
   border-color: white !important;
   border-radius:49px !important;
+  font-size: 20px !important;
 }
-.circleJulien
+
+.part_diag
+{
+  font-size: 19px;
+}
+.sec_txt
+{
+  font-size:13px;
+  font-weight: lighter;
+}
+.r1
+{
+  padding-left: 7%;
+}
+.circleJulien, .circleEric, .circleMaxime
 {
   width:11vw;
 }
-.circleMaxime
+.txtMaxdec
 {
-  width:11vw;
-}
-.circleEric
-{
-  width:11vw;
+  padding-left: 58%;
 }
 
 .circle_size1
 {
-  padding-top: 7%;
-  padding-left: 8%;
+
+  padding-top: 10%;
 }
 .circle_size2
 {
   padding-top: 11%;
-  padding-left: 35%;
 }
 .circle_size3
 {
   padding-top: 3%;
-  padding-left: 2%;
 }
 
+.txt_size1
+{
+  padding-top: 17%;
+}
+
+.txt_size2
+{
+  padding-top: 19%;
+}
+.txt_size3
+{
+  padding-top: 13%;
+}
 
 /* Styles pour téléphones */
 @media (min-width:310px) and (max-width: 325px)
 {
-  .btnStart
+  .circle_size1
   {
-    text-align:center !important;
-    margin-left: 3%;
-    font-size: 1.3vw !important;
-    width:23vw !important;
+
+    padding-top: 14%;
+  }
+  .circle_size2
+  {
+    padding-top: 4%;
+    padding-right: 6%;
+  }
+  .circle_size3
+  {
+    padding-top: 0%;
   }
 
-  .cruxRo
+  .txt_size1
   {
-    height:10%;
+    padding-top: 21%;
   }
-  .logo_Crux
+
+  .txt_size2
   {
-    height:10vw;
+    padding-top: 4%;
+  }
+  .txt_size3
+  {
+    padding-top: 8%;
+  }
+  .btnStart
+  {
+    background-color: white !important;
+    width:20vw;
+    text-align:center;
+    color: #615f67!important;
+    border-color: white !important;
+    border-radius:49px !important;
+    font-size: 5px !important;
+
   }
   .txtUnderCrux
   {
-    font-size:5.7px;
+    padding-left: 2%;
+    font-size:5px;
   }
-  #canvas
+  .part_diag
   {
-    padding: 35% 0 0 6%;
+    font-size: 5px;
+  }
+  .sec_txt
+  {
+    font-size:2px;
+    font-weight: lighter;
+  }
+  .txtMaxdec
+  {
+    padding-left: 0%;
+  }
+  .sec_txt
+  {
+    font-size:6px;
+    font-weight: lighter;
   }
 
 }
 /* Styles pour les tablettes */
 @media (min-width:380px) and (max-width: 768px) {
-    .btnStart
-    {
-      margin-left: 1%;
-      width:18vw;
-      font-size: 1.8vw !important;
-    }
-    .txtUnderCrux
-    {
-      font-size:12.7px;
-    }
 
-    #canvas
-    {
-      padding: 17% 0 0 6%;
-      width:51vw;
-    }
+  .txt_size3
+  {
+    padding-top: 11%;
+  }
+  .txtUnderCrux
+  {
+    padding-left: 2%;
+    font-size:10px;
+  }
+  .part_diag
+  {
+    font-size: 10px;
+  }
+  .sec_txt
+  {
+    font-size:15px;
+    font-weight: lighter;
+  }
+  .txtMaxdec
+  {
+    padding-left: 43%;
+  }
+  .sec_txt
+  {
+    font-size:10px;
+    font-weight: lighter;
+  }
+  .btnStart
+  {
+    background-color: white !important;
+    width:15vw;
+    text-align:center;
+    color: #615f67!important;
+    border-color: white !important;
+    border-radius:49px !important;
+    font-size: 12px !important;
 
-
+  }
+  .circle_size3
+  {
+    padding-top: 2%;
+  }
     }
 /* Styles pour les écrans moyens et grands */
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width:1024px) {
+  .txtUnderCrux
+  {
+    padding-left: 2%;
+    font-size:14px;
+  }
+  .part_diag
+  {
+    font-size: 14px;
+  }
+  .txtMaxdec
+  {
+    padding-left: 43%;
+  }
+  .sec_txt
+  {
+    font-size:10px;
+    font-weight: lighter;
+  }
 
+  .btnStart
+  {
+    background-color: white !important;
+    width:15vw;
+    text-align:center;
+    color: #615f67!important;
+    border-color: white !important;
+    border-radius:49px !important;
+    font-size: 12px !important;
+
+  }
 
     }

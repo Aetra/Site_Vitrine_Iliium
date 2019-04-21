@@ -18,7 +18,7 @@ const Footer = () => (
           <p><a href="mailto:support@cruxpool.com" class="menu-item font-weight-light align-bottom mt-lg-2">support@cruxpool.com</a></p>
         </div>
         <div className="linkbl col-lg-4 col-md-4 col-sm-12 align-bottom mt-lg-4 mt-sm-2">
-          <p className="font-weight-lighter">Join our LinkedIn</p>
+          <p className="font-weight-lighter">Join us on LinkedIn</p>
           <div className="iconLnk">
             <FontAwesomeIcon icon={faLinkedin} />
           </div>

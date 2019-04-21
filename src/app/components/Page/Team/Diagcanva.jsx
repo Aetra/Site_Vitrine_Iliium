@@ -2,9 +2,7 @@ import React from 'react';
 import './style_Team.css'
 
 
-import Eric from './img/iliium_team-ERIC.png';
-import Julien from './img/iliium_team-JULIEN.png';
-import Maxime from './img/iliium_team-MAX.png';
+
 
 class DiagCanvas extends React.Component {
 

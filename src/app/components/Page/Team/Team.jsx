@@ -25,35 +25,46 @@ const Team = () => {
       <div className="teamRo row">
       <div class="obliqueOne"></div>
       <div class="obliqueTwo"></div>
+
         <div className="col-lg-5 col-sm-5 col-5">
           <h1 className="titleOurTeam font-weight-bold">Our Team</h1>
           <h2 className="sectitleOurTeam"><span class="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
           <a href="#" class="mt-2 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
         </div>
-        <div className="col-lg-7 col-sm-7 col-7 container-fluid">
-          <div className="row">
-            <div className="circle_size1">
-            <p className="txtDiag1">
+
+        <div className="part_diag col-lg-7 col-sm-7 col-7 container-fluid">
+          <div className="r1 row">
+            <div className="col-lg-3 col-sm-3 col-3 circle_size1">
               <img src={Julien} class="circleJulien"/>
-              JULIEN GOURLET
-              Founder & CEO
-            </p>
             </div>
-          </div>
-          <div className="row">
-            <div className="circle_size2">
-              <p className="txtDiag2">
-              <img src={Maxime} class="circleMaxime"/>
-              MAXIME RIGGI
+            <div className="col-lg-9 col-sm-9 col-9  txt_size1">
+              <p>
+                <b>JULIEN GOURLET</b>
+              <p className="sec_txt">Founder & CEO</p>
               </p>
             </div>
           </div>
+
           <div className="row">
-            <div className="circle_size3">
-              <p className="txtDiag3">
+          <div className="col-lg-6 col-sm-6 col-6 txt_size2">
+            <p className="txtMaxdec">
+              <b>MAXIME RIGGI</b>
+              <p className="sec_txt">Full stack engineer & CTO</p>
+            </p>
+          </div>
+            <div className="col-lg-6 col-sm-6 col-6 circle_size2">
+              <img src={Maxime} class="circleMaxime"/>
+            </div>
+
+          </div>
+          <div className="row">
+            <div className="col-lg-3 col-sm-3 col-3 circle_size3">
               <img src={Eric} class="circleEric"/>
-                ERIC GEOFFREY
-                Growth hacker
+            </div>
+            <div className="col-lg-9 col-sm-9 col-9 txt_size3">
+              <p>
+                <b>ERIC GEOFFREY</b>
+              <p className="sec_txt">Growth hacker</p>
               </p>
             </div>
           </div>
