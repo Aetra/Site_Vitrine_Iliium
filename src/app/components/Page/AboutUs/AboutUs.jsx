@@ -31,23 +31,23 @@ const AboutUs = () => {
         <div className="col-lg-5 col-sm-5 col-5">
           <div className="flex-d flex-column bd-highligh align-items-stretch">
             <div className="flex-shrink bd-highlight align-items-end">
-              <img src={BP} class="logo_BP"/>
+              <img src={BP} alt="BPL" class="logo_BP"/>
             </div>
             <div className="flex-shrink bd-highlight">
-              <img src={CA} class="logo_CA"/>
+              <img src={CA} alt="ca" class="logo_CA"/>
             </div>
             <div className="flex-shrink-1 bd-highlight">
-              <img src={supelec} class="logo_supelec"/>
+              <img src={supelec} alt="supelec" class="logo_supelec"/>
             </div>
             <div className="flex-grow bd-highlight">
-              <img src={yeast} class="logo_yeast"/>
+              <img src={yeast} alt="log_yeast" class="logo_yeast"/>
             </div>
             <div className="flex-shrink-1 bd-highlight">
               <img src={BPI} class="logo_BPI"/>
-              <img src={frenchtech} class="logo_frenchtech"/>
+              <img src={frenchtech} alt="log_BPI" class="logo_frenchtech"/>
             </div>
             <div className="flex-shrink-1 bd-highlight">
-              <img src={bitstamp} class="logo_bitstamp"/>
+              <img src={bitstamp} alt="log_bitstamp" class="logo_bitstamp"/>
             </div>
           </div>
           </div>

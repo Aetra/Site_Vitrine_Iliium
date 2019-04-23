@@ -2,7 +2,7 @@ import React from 'react';
 import AboutUs from './AboutUs/AboutUs';
 import Project from './Project/Project';
 import Team from './Team/Team';
-import Contact from './Contact/Contact';
+import SendForm from './Contact/SendForm';
 
 const Page = () => {
   return(
@@ -10,7 +10,7 @@ const Page = () => {
     <AboutUs/>
     <Project/>
     <Team/>
-    <Contact/>
+    <SendForm/>
   </div>
    );
 };

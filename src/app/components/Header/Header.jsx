@@ -7,7 +7,7 @@ const Header = () => {
     <header className="parallax container-fluid col-lg-12">
       <div className="row">
         <div className="firstPart col-lg-12">
-          <img src={iliium_logo} class="logo_iliium"/>
+          <img src={iliium_logo} alt="imglogo" class="logo_iliium"/>
         </div>
       </div>
       <div className="row">
