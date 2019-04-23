@@ -4,11 +4,7 @@
   height: 58.594vw;
   overflow: hidden;
 }
-.titleProject
-{
-  padding:5% 0% 0% 43%;
-  font-size:82px;
-}
+
 .obliqueProject {
   position: absolute;
   top: 0;
@@ -31,8 +27,8 @@
   top: 12vw;
   bottom: 0;
   right: 0;
-  left: 72.8vw;
-  max-width:1vw;
+  left: 72.80vw;
+  max-width:0.9vw;
   max-height:60vw;
   background-image:linear-gradient(#0a0a09, #1a1616);
   transform: skewY(0deg);
@@ -40,20 +36,236 @@
   transform-origin: top left;
 }
 
-/* Styles pour téléphones */
-@media (max-width: 325px)
+.firstRow
 {
+  padding-top: 6%;
+  padding-left: 1%;
+}
+.secRow
+{
+  padding-top: 3%;
+  padding-left: 7%;
+
+}
+.thirdRow
+{
+  padding-top: 4%;
+  padding-right: 3.5%;
+}
+.firstBall
+{
+  position: relative;
+  width:4vw;
+  height:4vw;
+  border-radius:50%;
+  background:black;
+}
+.secondBall
+{
+  position: relative;
+  width:4vw;
+  height:4vw;
+  border-radius:50%;
+  background:black;
+}
+.thirdBall
+{
+  position: relative;
+  width:4vw;
+  height:4vw;
+  border-radius:50%;
+  background:black;
+}
+.titleProject
+{
+  padding:5% 0% 0% 43%;
+  font-size:82px;
+}
+.title1Project
+{
+  padding-left: 65%;
+}
+.title2Project
+{
+  padding-left: 0%;
+}
+.title3Project
+{
+  padding-left: 70%;
+}
+.txt1Project
+{
+  font-size: 15px;
+  padding-left: 65%;
+}
+.txt2Project
+{
+  font-size: 15px;
+}
+.txt3Project
+{
+  font-size: 15px;
+  padding-left: 70%;
+}
+/* Styles pour téléphones */
+@media (min-width: 320px) and (max-width: 768px)
+{
+  .firstRow
+  {
+    padding-top: 0%;
+    padding-right: 3%;
+  }
+  .secRow
+  {
+    padding-top: 0%;
+    padding-left: 29%;
+  }
+  .thirdRow
+  {
+    padding-top: 0%;
+    padding-left: 5%;
+  }
   .titleProject
   {
-    padding:5% 0% 0% 43%;
-    font-size:30px;
+    padding:6% 0% 0% 43%;
+    font-size:20px;
+  }
+  .title1Project
+  {
+    font-size:10px;
+    padding-left: 47%;
+  }
+  .title2Project
+  {
+    font-size:10px;
+    padding-left: 0%;
+  }
+  .title3Project
+  {
+    font-size:10px;
+    padding-left: 42%;
+  }
+  .txt1Project
+  {
+    margin-top: -4%;
+    font-size: 5px;
+    padding-left: 47%;
+  }
+  .txt2Project
+  {
+    margin-top: -8%;
+    font-size: 5px;
+    padding-left: 0%;
+  }
+  .txt3Project
+  {
+    margin-top: -5%;
+    font-size: 5px;
+    padding-left: 42%;
   }
 }
 /* Styles pour les tablettes */
-@media (min-width:325px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 992px) {
+  .firstRow
+  {
+    padding-top: 3%;
+    padding-right: 0.5%;
+  }
+  .secRow
+  {
+    padding-top: 0%;
+    padding-left: 5%;
+
+  }
+  .thirdRow
+  {
+    padding-top: 0%;
+    padding-right: 8%;
+  }
   .titleProject
   {
-    padding:5% 0% 0% 43%;
-    font-size:58px;
+    padding:6% 0% 0% 43%;
+    font-size:50px;
   }
+  .title1Project
+  {
+    font-size:25px;
+    padding-left: 57%;
+  }
+  .title2Project
+  {
+    font-size:25px;
+    padding-left: 0%;
+  }
+  .title3Project
+  {
+    font-size:25px;
+    padding-left: 52%;
+  }
+  .txt1Project
+  {
+    margin-top: 0%;
+    font-size: 10px;
+    padding-left: 57%;
+  }
+  .txt2Project
+  {
+    margin-top: 0%;
+    font-size: 10px;
+  }
+  .txt3Project
+  {
+    margin-top: 0%;
+    font-size: 10px;
+    padding-left: 52%;
+  }
+}
+  @media (min-width: 992px) and (max-width:1030px) {
+    .firstRow
+    {
+      padding-top: 4%;
+      padding-right: 0%;
+    }
+    .secRow
+    {
+      padding-top: 2%;
+      padding-left: 4%;
+
+    }
+    .thirdRow
+    {
+      padding-top: 2%;
+      padding-right: 6%;
+    }
+    .titleProject
+    {
+      padding:5% 0% 0% 43%;
+      font-size:72px;
+    }
+    .title1Project
+    {
+      padding-left: 65%;
+    }
+    .title2Project
+    {
+      padding-left: 0%;
+    }
+    .title3Project
+    {
+      padding-left: 70%;
+    }
+    .txt1Project
+    {
+      font-size: 13px;
+      padding-left: 65%;
+    }
+    .txt2Project
+    {
+      font-size: 13px;
+    }
+    .txt3Project
+    {
+      font-size: 13px;
+      padding-left: 70%;
+    }
 }

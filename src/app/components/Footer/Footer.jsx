@@ -1,7 +1,6 @@
 import React from 'react';
 import './style_Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Iliium_logo from './img/Iliium_logo.png';
 

@@ -25,6 +25,11 @@ hr
   color: white;
   padding-left: 45%;
 }
+
+.iconLnk
+{
+font-size: 1.7rem;
+}
 /* Styles pour téléphones */
 @media (min-width:310px) and (max-width: 460px)
 {

@@ -99,22 +99,19 @@
 {
   font-size: 19px;
 }
+.r1_diag
+{
+  padding-left: 7%;
+}
 .sec_txt
 {
   font-size:13px;
   font-weight: lighter;
 }
-.r1
-{
-  padding-left: 7%;
-}
+
 .circleJulien, .circleEric, .circleMaxime
 {
   width:11vw;
-}
-.txtMaxdec
-{
-  padding-left: 58%;
 }
 
 .circle_size1
@@ -129,6 +126,10 @@
 .circle_size3
 {
   padding-top: 3%;
+}
+.txtMaxdec
+{
+  padding-left: 55%;
 }
 
 .txt_size1
@@ -146,7 +147,7 @@
 }
 
 /* Styles pour téléphones */
-@media (min-width:310px) and (max-width: 325px)
+@media (min-width:310px) and (max-width: 380px)
 {
   .circle_size1
   {

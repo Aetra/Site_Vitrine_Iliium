@@ -33,7 +33,7 @@ const Team = () => {
         </div>
 
         <div className="part_diag col-lg-7 col-sm-7 col-7 container-fluid">
-          <div className="r1 row">
+          <div className="r1_diag row">
             <div className="col-lg-3 col-sm-3 col-3 circle_size1">
               <img src={Julien} class="circleJulien"/>
             </div>

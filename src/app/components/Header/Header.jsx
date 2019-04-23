@@ -4,9 +4,9 @@ import iliium_logo from './img/Iliium_logo.png';
 
 const Header = () => {
   return (
-    <header className="paralsec container-fluid col-lg-12">
+    <header className="parallax container-fluid col-lg-12">
       <div className="row">
-        <div className="bllogo col-lg-12">
+        <div className="firstPart col-lg-12">
           <img src={iliium_logo} class="logo_iliium"/>
         </div>
       </div>
