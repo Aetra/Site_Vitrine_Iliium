@@ -13,7 +13,7 @@ const Team = () => {
       <div className="teamRo row">
         <div className="col-5 pt-5 mt-5">
           <h1 className="titleOurTeam font-weight-bold">Our Team</h1>
-          <h2 className="pt-2 pl-2 sectitleOurTeam"><span className="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
+          <h2 className=" pl-2 sectitleOurTeam"><span className="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
           <a href="https://cruxpool.com/#/" className="mt-1 ml-1 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
         </div>
 
@@ -33,40 +33,38 @@ const Team = () => {
           <div class="container-fluid">
             <div className="obliqueOne"></div>
             <div className="obliqueTwo"></div>
-              <div className="row">
-                <div className="col-3 circleSize1">
+
+                <div className="circleSize1">
                   <img src={Julien} alt="ballJ" className="circleJulien"/>
                 </div>
-                <div className="col-9  txtSize1">
+                <div className="txtSize1">
                   <p>
                     <b>JULIEN</b>
                     <p className="secTxt">Founder & CEO</p>
                   </p>
               </div>
-            </div>
 
-            <div className="row">
-            <div className="col-6 txtSize2">
+            <div className="txtSize2">
               <p className="txtMaxdec">
                 <b>MAXIME</b>
                 <p className="secTxt">Full stack engineer & CTO</p>
               </p>
             </div>
-              <div className="col-6 circleSize2">
+              <div className="circleSize2">
                 <img src={Maxime} alt="ballM" className="circleMaxime"/>
               </div>
-            </div>
-            <div className="row">
-              <div className="col-3 circleSize3">
+
+              <div className="circleSize3">
                 <img src={Eric} alt="ballE" className="circleEric"/>
               </div>
-              <div className="col-9 txtSize3">
+
+              <div className="txtSize3">
                 <p>
                   <b>ERIC</b>
                 <p className="secTxt">Growth hacker</p>
                 </p>
               </div>
-            </div>
+
           </div>
         </div>
       </div>
