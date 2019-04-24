@@ -4,8 +4,9 @@ import Page from './app/components/Page/Page';
 import Footer from './app/components/Footer/Footer';
 
 
+
 const App = () => (
-  <div>
+  <div className="AllApp">
   <Header/>
   <Page/>
   <Footer/>

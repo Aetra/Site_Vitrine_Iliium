@@ -12,7 +12,7 @@ const Team = () => {
       </div>
       <div className="cruxRo row">
         <div className="oui col-lg-12">
-          <img src={Crux} class="logo_Crux"/>
+          <img src={Crux} alt="logo_crux" className="logo_Crux"/>
           <p className="txtUnderCrux">
           Launched in October 2018, Cruxpool was made to<br/>
           offer the best tools miners can get, Highly<br/>
@@ -23,19 +23,19 @@ const Team = () => {
         </div>
       </div>
       <div className="teamRo row">
-      <div class="obliqueOne"></div>
-      <div class="obliqueTwo"></div>
+      <div className="obliqueOne"></div>
+      <div className="obliqueTwo"></div>
 
         <div className="col-lg-5 col-sm-5 col-5">
           <h1 className="titleOurTeam font-weight-bold">Our Team</h1>
-          <h2 className="sectitleOurTeam"><span class="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
-          <a href="#" class="mt-2 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
+          <h2 className="sectitleOurTeam"><span className="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
+          <a href="https://cruxpool.com/#/" className="mt-2 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
         </div>
 
         <div className="part_diag col-lg-7 col-sm-7 col-7 container-fluid">
           <div className="r1_diag row">
             <div className="col-lg-3 col-sm-3 col-3 circle_size1">
-              <img src={Julien} class="circleJulien"/>
+              <img src={Julien} alt="ballJ" className="circleJulien"/>
             </div>
             <div className="col-lg-9 col-sm-9 col-9  txt_size1">
               <p>
@@ -53,13 +53,13 @@ const Team = () => {
             </p>
           </div>
             <div className="col-lg-6 col-sm-6 col-6 circle_size2">
-              <img src={Maxime} class="circleMaxime"/>
+              <img src={Maxime} alt="ballM" className="circleMaxime"/>
             </div>
 
           </div>
           <div className="row">
             <div className="col-lg-3 col-sm-3 col-3 circle_size3">
-              <img src={Eric} class="circleEric"/>
+              <img src={Eric} alt="ballE" className="circleEric"/>
             </div>
             <div className="col-lg-9 col-sm-9 col-9 txt_size3">
               <p>

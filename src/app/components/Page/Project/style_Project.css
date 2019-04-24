@@ -27,42 +27,35 @@
   top: 12vw;
   bottom: 0;
   right: 0;
-  left: 72.80vw;
+  left: 72.82vw;
   max-width:0.9vw;
   max-height:60vw;
-  background-image:linear-gradient(#0a0a09, #1a1616);
+  background-image:linear-gradient(#322f2f, #322f2f);
   transform: skewY(0deg);
   transform:skewX(-22deg);
   transform-origin: top left;
 }
 
-.firstRow
-{
-  padding-top: 6%;
-  padding-left: 1%;
-}
-.secRow
-{
-  padding-top: 3%;
-  padding-left: 7%;
-
-}
-.thirdRow
-{
-  padding-top: 4%;
-  padding-right: 3.5%;
-}
 .firstBall
 {
-  position: relative;
+  position: absolute;
+  top: 19vw;
+  bottom:0;
+  right: 0vw;
+  left: 67.5vw;
   width:4vw;
   height:4vw;
   border-radius:50%;
   background:black;
 }
+
 .secondBall
 {
-  position: relative;
+  position: absolute;
+  top: 32vw;
+  bottom: 0;
+  right: 0;
+  left: 62.2vw;
   width:4vw;
   height:4vw;
   border-radius:50%;
@@ -70,11 +63,34 @@
 }
 .thirdBall
 {
-  position: relative;
+  position: absolute;
+  top: 47vw;
+  bottom: 0;
+  right: 0;
+  left: 56.2vw;
   width:4vw;
   height:4vw;
   border-radius:50%;
   background:black;
+}
+
+.positionTxt1
+{
+  float:left;
+  padding-top: 3%;
+  padding-left: 45%;
+}
+.positionTxt2
+{
+  float:right;
+  padding-top: 4%;
+  padding-left: 70%;
+}
+.positionTxt3
+{
+  padding-top: 5%;
+  float:left;
+  padding-left: 35%;
 }
 .titleProject
 {
@@ -83,7 +99,6 @@
 }
 .title1Project
 {
-  padding-left: 65%;
 }
 .title2Project
 {
@@ -91,12 +106,10 @@
 }
 .title3Project
 {
-  padding-left: 70%;
 }
 .txt1Project
 {
   font-size: 15px;
-  padding-left: 65%;
 }
 .txt2Project
 {
@@ -105,82 +118,82 @@
 .txt3Project
 {
   font-size: 15px;
-  padding-left: 70%;
 }
 /* Styles pour téléphones */
 @media (min-width: 320px) and (max-width: 768px)
 {
-  .firstRow
+
+  .positionTxt1
   {
+    text-align: justify;
+    float:left;
     padding-top: 0%;
-    padding-right: 3%;
+    padding-left: 40%;
   }
-  .secRow
+  .positionTxt2
   {
+    float:right;
     padding-top: 0%;
-    padding-left: 29%;
+    padding-left: 70%;
   }
-  .thirdRow
+  .positionTxt3
   {
     padding-top: 0%;
-    padding-left: 5%;
+    float:left;
+    padding-left: 35%;
   }
   .titleProject
   {
-    padding:6% 0% 0% 43%;
-    font-size:20px;
+    padding:5% 0% 0% 43%;
+    font-size:17px;
   }
   .title1Project
   {
-    font-size:10px;
-    padding-left: 47%;
+    font-size:8px;
   }
   .title2Project
   {
-    font-size:10px;
-    padding-left: 0%;
+    font-size:8px;
   }
   .title3Project
   {
-    font-size:10px;
-    padding-left: 42%;
+    font-size:8px;
   }
   .txt1Project
   {
-    margin-top: -4%;
+    margin-top: -6%;
     font-size: 5px;
-    padding-left: 47%;
   }
   .txt2Project
   {
-    margin-top: -8%;
+    margin-top: -10%;
     font-size: 5px;
-    padding-left: 0%;
   }
   .txt3Project
   {
-    margin-top: -5%;
+    margin-top: -9%;
     font-size: 5px;
-    padding-left: 42%;
   }
 }
 /* Styles pour les tablettes */
 @media (min-width: 768px) and (max-width: 992px) {
-  .firstRow
+  .positionTxt1
   {
-    padding-top: 3%;
-    padding-right: 0.5%;
+    float:left;
+    padding-top: 0%;
+    padding-left: 45%;
   }
-  .secRow
+  .positionTxt2
+  {
+    float:right;
+    padding-top: 0%;
+    padding-left: 70%;
+  }
+  .positionTxt3
   {
     padding-top: 0%;
-    padding-left: 5%;
-
-  }
-  .thirdRow
-  {
-    padding-top: 0%;
-    padding-right: 8%;
+    float:left;
+    padding-left: 37%;
   }
   .titleProject
   {
@@ -189,24 +202,20 @@
   }
   .title1Project
   {
-    font-size:25px;
-    padding-left: 57%;
+    font-size:20px;
   }
   .title2Project
   {
-    font-size:25px;
-    padding-left: 0%;
+    font-size:20px;
   }
   .title3Project
   {
-    font-size:25px;
-    padding-left: 52%;
+    font-size:20px;
   }
   .txt1Project
   {
     margin-top: 0%;
     font-size: 10px;
-    padding-left: 57%;
   }
   .txt2Project
   {
@@ -217,26 +226,9 @@
   {
     margin-top: 0%;
     font-size: 10px;
-    padding-left: 52%;
   }
 }
   @media (min-width: 992px) and (max-width:1030px) {
-    .firstRow
-    {
-      padding-top: 4%;
-      padding-right: 0%;
-    }
-    .secRow
-    {
-      padding-top: 2%;
-      padding-left: 4%;
-
-    }
-    .thirdRow
-    {
-      padding-top: 2%;
-      padding-right: 6%;
-    }
     .titleProject
     {
       padding:5% 0% 0% 43%;
@@ -244,20 +236,34 @@
     }
     .title1Project
     {
-      padding-left: 65%;
     }
     .title2Project
     {
-      padding-left: 0%;
     }
     .title3Project
     {
+    }
+    .positionTxt1
+    {
+      float:left;
+      padding-top: 0%;
+      padding-left: 45%;
+    }
+    .positionTxt2
+    {
+      float:right;
+      padding-top: 0%;
       padding-left: 70%;
+    }
+    .positionTxt3
+    {
+      padding-top:3%;
+      float:left;
+      padding-left: 37%;
     }
     .txt1Project
     {
       font-size: 13px;
-      padding-left: 65%;
     }
     .txt2Project
     {
@@ -266,6 +272,5 @@
     .txt3Project
     {
       font-size: 13px;
-      padding-left: 70%;
     }
 }

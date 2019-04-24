@@ -10,7 +10,7 @@ const Footer = () => (
     <div className="container-fluid">
       <div className="row">
         <div className="col-lg-4 col-md-4">
-          <img src={Iliium_logo} class="img-fluid home-logo"/>
+          <img src={Iliium_logo} alt="logo_iliium" class="img-fluid home-logo"/>
         </div>
         <div className="blMenu col-lg-4 col-md-4 col-sm-12 mt-lg-4 mt-sm-2">
           <a href="https://cruxpool.com/" class="menu-item font-weight-light align-bottom lg-mt-2">cruxpool.com</a>
@@ -24,7 +24,7 @@ const Footer = () => (
         </div>
       </div>
       <hr className="hrOne"/>
-      <div clasName="col-lg-12">
+      <div className="col-lg-12">
         <div className="row copyright flex-row justify-content-center">
           <p className="text-muted">Iliium 2019</p>
           </div>

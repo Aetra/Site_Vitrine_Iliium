@@ -6,14 +6,13 @@
 }
 .parallax
 {
-  height:70vw;
+  height:cover;
   background-image: url(./img/Iliium_landing-page.jpg);
   color:white;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-
 }
 
 .logo_iliium
@@ -21,14 +20,17 @@
   display:block;
   margin-left:auto;
   margin-right:auto;
-  margin-top:5%;
-  width:60%;
+  margin-top:4%;
+  width:40vw;
 }
 
 .secPart
 {
-  padding:7% 0% 0% 6% !important;
+  padding:4% 0% 0% 6% !important;
 }
+
+
+
 .btnContact
 {
   width:22vw;
@@ -38,11 +40,14 @@
   border-color: white !important;
   border-radius:49px !important;
   text-align:center;
-
 }
 .txtBtn
 {
  font-size: 28px;
+}
+.paddHeader
+{
+  padding-bottom: 5%;
 }
 
 /* Styles pour téléphones */
@@ -52,8 +57,8 @@
   {
     margin-left: 30% ;
     border-radius:20px;
-    width:30% ;
-    height:33%;
+    width:40% ;
+    height:38%;
   }
   .txtBtn
   {
