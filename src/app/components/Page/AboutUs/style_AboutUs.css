@@ -1,5 +1,5 @@
 .stAboutUs {
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
 }
 
@@ -10,7 +10,7 @@
   right:0;
   left:0 ;
   width:62.75vw;
-  max-height:100vh;
+  max-height:100%;
   background-image: linear-gradient(#ccc9c5, #cccccc);
   transform: skewX(-22deg);
   transform-origin: top left;
