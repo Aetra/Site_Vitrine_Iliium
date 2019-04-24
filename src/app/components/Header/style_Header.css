@@ -1,6 +1,6 @@
 .titleHeader {
   color:white;
-  font-size:63px;
+  font-size:61px;
 }
 
 .parallax {
@@ -35,44 +35,20 @@
   text-align:center;
 }
 
-.paddHeader {
-  padding-bottom: 5%;
-}
-
 /* Mobile Devices */
-@media (min-width:310px) and (max-width: 460px)
-{
-  .btnContact {
-    margin-left: 30% ;
-    border-radius:20px;
-    width:40% ;
-    height:38%;
-  }
-
-  .titleHeader {
-    color:white;
-    font-size:19px;
-  }
-
-  .secPart {
-    padding:4% 0% 0% 6% !important;
-  }
-
+@media (min-width: 576px) {
 }
 
 /* Medium Devices */
-@media (min-width:460px) and (max-width: 768px) {
+@media (min-width:768px) {
 
-      .titleHeader {
-        color:white;
-        font-size:45px;
-      }
-      
-      .btnContact {
-        margin-left: 30% !important;
-        border-radius:20px !important;
-        width:30% !important;
-        height:33%;
-      }
+}
+/* Large devices */
+@media (min-width:992px) {
+
+}
+
+/* Extra large devices */
+@media (min-width:1200px) {
 
 }

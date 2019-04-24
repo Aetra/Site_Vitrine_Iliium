@@ -12,7 +12,7 @@ const Header = () => {
         </div>
       </div>
       <div className="paddHeader row">
-        <div className="secPart col-lg-12 col-md-12 col-xs-12">
+        <div className="secPart col-12">
           <h1 className="titleHeader font-weight-bold">
             What would you do <br/> if you could predict the furture?
           </h1>

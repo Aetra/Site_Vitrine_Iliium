@@ -14,7 +14,7 @@ const AboutUs = () => {
       <div className="obliqueAbout">
       </div>
       <div className="row">
-        <div className="oblBloc col-lg-7 col-sm-7 col-7">
+        <div className="pt-5 pl-5 col-7">
           <h1 className="titleAboutUs font-weight-bold">A bit<br/> About Us</h1>
           <div className="textbloc">
             <p className="textAboutUs">
@@ -30,24 +30,24 @@ const AboutUs = () => {
         </div>
         <div className="col-lg-5 col-sm-5 col-5">
           <div className="flex-d flex-column bd-highligh align-items-stretch">
-            <div className="flex-shrink bd-highlight align-items-end">
-              <img src={BP} alt="BPL" className="logo_BP"/>
+            <div className="flex-shrink bd-highlight align-items-end text-center">
+              <img src={bitstamp} alt="log_bitstamp" className="logo_bitstamp"/>
             </div>
             <div className="flex-shrink bd-highlight">
-              <img src={CA} alt="ca" className="logo_CA"/>
+              <img src={frenchtech} alt="log_BPI" className="logo_frenchtech"/>
             </div>
             <div className="flex-shrink-1 bd-highlight">
-              <img src={supelec} alt="supelec" className="logo_supelec"/>
+              <img src={supelec} alt="supelec" className="ml-5 logo_supelec"/>
             </div>
             <div className="flex-grow bd-highlight">
               <img src={yeast} alt="log_yeast" className="logo_yeast"/>
             </div>
             <div className="flex-shrink-1 bd-highlight">
-              <img src={BPI} alt="log_BPI" className="logo_BPI"/>
-              <img src={frenchtech} alt="log_BPI" className="logo_frenchtech"/>
+              <img src={BP} alt="BPL" className="mr-2 logo_BP"/>
+              <img src={CA} alt="ca" className="mt-5 ml-5 logo_CA"/>
             </div>
             <div className="flex-shrink-1 bd-highlight">
-              <img src={bitstamp} alt="log_bitstamp" className="logo_bitstamp"/>
+              <img src={BPI} alt="log_BPI" className="logo_BPI"/>
             </div>
           </div>
           </div>

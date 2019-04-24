@@ -2,16 +2,11 @@
   height: 100%;
 }
 
-.logo_Crux {
+.logoCrux {
   height: 7vw;
 }
 
-.teamRo {
-  padding-left: 5%;
-}
-
 .txtUnderCrux {
-  padding-left: 2%;
   font-size:15px;
 }
 
@@ -23,17 +18,17 @@
   left: 0;
   max-width:54.9vw;
   max-height:100%;
-  background-image:linear-gradient(#323635,#322f2f);
+  background-image:linear-gradient(#323635,#323635);
   transform: skewY(-70deg);
-  transform:skewX(-22deg);
+  transform:skewX(-21deg);
   transform-origin: top left;
 }
 
 .obliqueOne {
   position: absolute;
-  top: 42%;
+  top: 35%;
   bottom: 0;
-  left:57%;
+  left:30%;
   right: 0;
   max-width:1.2vw;
   max-height:16vw;
@@ -45,10 +40,10 @@
 
 .obliqueTwo {
   position: absolute;
-  top: 70%;
+  top: 65%;
   bottom: 0;
   right: 0;
-  left: 77%;
+  left: 65%;
   max-width:1.5vw;
   max-height:14vw;
   background-image:linear-gradient(#322f2f, #322f2f);
@@ -63,11 +58,9 @@
 }
 
 .sectitleOurTeam {
-  padding-left:1%;
   font-size: 3vw;
   color:white;
 }
-
 .fnt {
   font-weight: lighter;
 }
@@ -82,15 +75,11 @@
   font-size: 20px !important;
 }
 
-.part_diag {
+.partDiag {
   font-size: 19px;
 }
 
-.r1_diag {
-  padding-left: 7%;
-}
-
-.sec_txt {
+.secTxt {
   font-size:13px;
   font-weight: lighter;
 }
@@ -99,176 +88,37 @@
   width:11vw;
 }
 
-.circle_size1 {
-  padding-top: 11%;
-}
-
-.circle_size2 {
-  padding-top: 15%;
-}
-
-.circle_size3 {
-  padding-top: 5%;
-}
-
 .txtMaxdec {
   padding-left: 55%;
 }
 
-.txt_size1 {
+.txtSize1 {
   padding-top: 19%;
 }
 
-.txt_size2 {
+.txtSize2 {
   padding-top: 23%;
 }
 
-.txt_size3 {
+.txtSize3 {
   padding-top: 14%;
 }
 
-/* Mobile Device */
-@media (min-width:310px) and (max-width: 380px)
+/* Mobile Devices */
+@media (min-width: 576px)
 {
-  .circle_size1 {
-    padding-top: 14%;
-  }
+}
 
-  .circle_size2 {
-    padding-top: 8%;
-    padding-right: 10%;
-  }
-  .circle_size3
-  {
-    padding-top: 0%;
-  }
-
-  .txt_size1
-  {
-    padding-top: 22%;
-  }
-
-  .txt_size2
-  {
-    padding-top: 10%;
-  }
-  .txt_size3
-  {
-    padding-top: 8%;
-  }
-  .btnStart
-  {
-    background-color: white !important;
-    width:20vw;
-    text-align:center;
-    color: #615f67!important;
-    border-color: white !important;
-    border-radius:49px !important;
-    font-size: 5px !important;
-
-  }
-  .txtUnderCrux
-  {
-    padding-left: 2%;
-    font-size:5px;
-  }
-  .part_diag
-  {
-    font-size: 5px;
-  }
-  .sec_txt
-  {
-    font-size:2px;
-    font-weight: lighter;
-  }
-  .txtMaxdec
-  {
-    padding-left: 0%;
-  }
-  .sec_txt
-  {
-    font-size:6px;
-    font-weight: lighter;
-  }
+/* Medium Devices */
+@media (min-width:768px) {
 
 }
-/* Styles pour les tablettes */
-@media (min-width:380px) and (max-width: 768px) {
+/* Large devices */
+@media (min-width:992px){
 
-  .txt_size3
-  {
-    padding-top: 11%;
-  }
-  .txtUnderCrux
-  {
-    padding-left: 2%;
-    font-size:10px;
-  }
-  .part_diag
-  {
-    font-size: 10px;
-  }
-  .sec_txt
-  {
-    font-size:15px;
-    font-weight: lighter;
-  }
-  .txtMaxdec
-  {
-    padding-left: 43%;
-  }
-  .sec_txt
-  {
-    font-size:10px;
-    font-weight: lighter;
-  }
-  .btnStart
-  {
-    background-color: white !important;
-    width:15vw;
-    text-align:center;
-    color: #615f67!important;
-    border-color: white !important;
-    border-radius:49px !important;
-    font-size: 12px !important;
+}
 
-  }
-  .circle_size3
-  {
-    padding-top: 2%;
-  }
-    }
-/* Styles pour les écrans moyens et grands */
-@media (min-width: 992px) and (max-width:1024px) {
-  .txtUnderCrux
-  {
-    padding-left: 2%;
-    font-size:14px;
-  }
-  .part_diag
-  {
-    font-size: 14px;
-  }
-  .txtMaxdec
-  {
-    padding-left: 43%;
-  }
-  .sec_txt
-  {
-    font-size:10px;
-    font-weight: lighter;
-  }
+/* Extra large devices */
+@media (min-width:1200px){
 
-  .btnStart
-  {
-    background-color: white !important;
-    width:15vw;
-    text-align:center;
-    color: #615f67!important;
-    border-color: white !important;
-    border-radius:49px !important;
-    font-size: 12px !important;
-
-  }
-
-    }
+}
