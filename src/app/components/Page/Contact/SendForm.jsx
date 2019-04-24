@@ -6,44 +6,43 @@ import './style_Contact.css';
 class SendForm extends React.Component
 {
   constructor(props) {
-  super(props);
-  this.handleSubmit=this.handleSubmit.bind(this);
-
-  this.state={
-    Email:'',
-    Subject:'',
-    Message:''
-  };
-
-}
-handleSubmit(event)
-{
-
-  event.preventDefault();
-  console.log('email',this.state.Email,'subject',this.state.Subject,'message',this.state.Message);
-  if(this.state.email !=="" && this.state.subject !=="" && this.state.message!=="")
+    super(props);
+    this.handleSubmit=this.handleSubmit.bind(this);
+  }
+  handleSubmit(event)
   {
+    // var body = {
+    //   mail:this.mail.value,
+    //   subject: this.subject.value,
+    //   message: this.message.value,
+    //   phone: "",
+    //   name:""
+    // }
+    var body = "mail="+this.mail.value;
+
+
+  
       fetch('https://iliium.com/api/contact',{
         method:'POST',
-        body:JSON.stringify(this.state),
+        body:body,
         headers: {
-          "Content-Type": "application/json"
-        },
-        mode:"cors"
-
+          "Content-Type": "application/x-www-form-urlencoded"
+        }
       }).then((response) =>
         {
-          window.alert('Contact send, we will process your request as soon as possible.');
-   },
+          if (response.ok){
+            alert('Contact send, we will process your request as soon as possible.');
+          } else {
+            alert('received 404');
+          }
+        },
         (error) =>
         {
           window.alert('Contact failled, retry');
+        });
 
-        })
-      }else{
-        alert('Error, Retry')
-      }
-    }
+    event.preventDefault();
+  }
   render(){
     return(
       <div className="stContact container-fluid">
@@ -57,15 +56,15 @@ handleSubmit(event)
             <form onSubmit={this.handleSubmit} id="contact-form" class="form" role="form">
               <div className="form-group">
                 <label className="form-label" for="email">Your Email</label>
-                <input type="email" className="form-control" id="email" name="email" placeholder="Email" tabindex="2" required/>
+                <input type="email" className="form-control" id="email" ref={(input) => this.mail = input} placeholder="Email" tabindex="2" required/>
               </div>
               <div className="form-group">
                 <label className="form-label" for="subject">Subject</label>
-                <input type="subject" className="form-control" id="subject" name="subject" placeholder="Subject" tabindex="3"/>
+                <input type="subject" className="form-control" id="subject" ref={(input) => this.subject = input} placeholder="Subject" tabindex="3"/>
               </div>
               <div className="form-group">
                 <label className="form-label" for="message">Message</label>
-                <textarea rows="4" cols="50" name="message" class="form-control" id="message" placeholder="Message" tabindex="4" required></textarea>
+                <textarea rows="4" cols="50" ref={(input) => this.message = input} class="form-control" id="message" placeholder="Message" tabindex="4" required></textarea>
               </div>
               <div className="text-center">
                 <button type="submit" className="btn btn-start-order" value="Submit">SUBMIT</button>
