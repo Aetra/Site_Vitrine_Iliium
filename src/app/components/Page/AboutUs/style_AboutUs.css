@@ -1,6 +1,5 @@
-.stAboutUs
-{
-  height: 58.594vw;
+.stAboutUs {
+  height: 100vh;
   overflow: hidden;
 }
 
@@ -10,124 +9,102 @@
   bottom:0;
   right:0;
   left:0 ;
-  width:66.75vw;
-  max-height:100vw;
+  width:62.75vw;
+  max-height:100vh;
   background-image: linear-gradient(#ccc9c5, #cccccc);
-  transform: skewY(-70deg);
-  transform:skewX(-22deg);
+  transform: skewX(-22deg);
   transform-origin: top left;
 }
 
-.titleAboutUs
-{
+.titleAboutUs {
   font-size:6vw;
   padding:8% 0% 0% 7%;
   color:white;
 }
 
-.textbloc
-{
+.textbloc {
   margin-top: 3%;
   padding-left:7%;
   color:black;
   font-size:1.4vw;
 }
-.textAboutUs
-{
+
+.textAboutUs {
   padding:3% 0% 0% 0%;
   color:black;
 }
 
-.logo_BP
-{
+.logo_BP {
   width:38%;
   margin-left: 26%;
 }
 
-.logo_CA
-{
+.logo_CA {
   width:38%;
   margin-left: 35%;
 }
 
-.logo_supelec
-{
+.logo_supelec {
   width:38%;
 }
 
-.logo_yeast
-{
+.logo_yeast {
   width:38%;
   margin-left: 35%;
 }
 
-.logo_BPI
-{
+.logo_BPI {
   width:38%;
   margin-right: 3%;
 }
 
-.logo_frenchtech
-{
+.logo_frenchtech {
   width:38%;
-
 }
 
-.logo_bitstamp
-{
+.logo_bitstamp {
   width:38%;
   margin-left: 18%;
-
 }
 
 
-/* Styles pour téléphones */
+/* Mobile Devices */
 @media (max-width: 325px)
 {
-  .titleAboutUs
-  {
+  .titleAboutUs {
     font-size:20px;
     padding:4% 0% 0% 0%;
     color:white;
   }
 
-  .textbloc
-  {
+  .textbloc {
     margin-top: 1%;
     padding-left:0%;
     color:black;
     font-size:6.2px;
   }
-  .textAboutUs
-  {
+  .textAboutUs {
     padding:0% 0% 0% 0%;
     color:black;
   }
 }
-/* Styles pour les tablettes */
+
+/* Medium Devices */
 @media (min-width:325px) and (max-width: 768px) {
-  .titleAboutUs
-  {
+  .titleAboutUs {
     font-size:43px;
     padding:3% 0% 0% 2%;
     color:white;
   }
 
-  .textbloc
-  {
+  .textbloc {
     padding-top: 1%;
     padding-left:2%;
     color:black;
     font-size:15px;
   }
-  .textAboutUs
-  {
+  .textAboutUs {
     padding:2% 0% 0% 0%;
     color:black;
   }
 }
- /* Styles pour les écrans moyens et grands */
-@media (min-width: 992px) {
-
-
-      }

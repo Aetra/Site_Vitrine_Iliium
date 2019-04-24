@@ -5,55 +5,51 @@ background-color: #303030;
 font-size: 15px;
 padding-top: 4%;
 }
-hr
-{
+hr {
   background-color: #ECF8DD;
   border: none;
   width: 50%;
   height: 1px;
 }
-.menu-item
-{
+.hrOne {
+  margin-top: 22px;
+  margin-bottom: 42px;
+}
+.menu-item {
   color:white;
 }
-.home-logo
-{
+.home-logo {
   padding-right: 4%;
   width: 16vw;
 }
-.linkbl
-{
+.linkbl {
   color: white;
   padding-left: 45%;
 }
 
-.iconLnk
-{
+.iconLnk {
 font-size: 1.7rem;
 }
-/* Styles pour téléphones */
-@media (min-width:310px) and (max-width: 460px)
-{
+
+/* Mobile Devices */
+@media (min-width:310px) and (max-width: 460px) {
   .wn-footer {
   text-align: center;
   color: white;
   background-color: #303030;
   font-size: 10px;
   }
-  .home-logo
-  {
-    margin-left: 6%;
+  .home-logo {
+    padding-right: 0;
     width: 41vw;
   }
-  .blMenu
-  {
+  .blMenu {
     margin-top: 2%;
   }
 
 }
-/* Styles pour les tablettes */
+
+/* Medium Devices */
 @media (min-width:460px) and (max-width: 768px) {
 
-
-
-      }
+}

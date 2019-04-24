@@ -4,9 +4,8 @@ import './style_Project.css';
 const Project = () => {
   return (
     <div className="stProject">
-    <h1 className="titleProject text-center font-weight-bold  t">What we do</h1>
-      <div className="obliqueProject">
-      </div>
+      <h1 className="titleProject text-center font-weight-bold  t">What we do</h1>
+      <div className="obliqueProject"></div>
       <div className="obliqueProjectLine"></div>
 
       <div className="row">
@@ -14,8 +13,8 @@ const Project = () => {
           <div className="firstBall"> </div>
           <h3 className="title1Project"> Blockchain </h3>
           <p className="txt1Project">
-          Highly disruptive technology that will<br/> <b>revolutionized</b> plenty
-          of activity area<br/> starting from finance<br/> to industry through computing
+            Highly disruptive technology that will<br/> <b>revolutionized</b> plenty
+            of activity area<br/> starting from finance<br/> to industry through computing
           </p>
         </div>
       </div>
@@ -25,7 +24,7 @@ const Project = () => {
           <div className="secondBall"> </div>
           <h3 className="title2Project"> Ethereum </h3>
           <p className="txt2Project">
-          Ethereum is the leading blockchain<br/> technology that provides<br/> <b>flexibility</b> and <b>security</b>
+            Ethereum is the leading blockchain<br/> technology that provides<br/> <b>flexibility</b> and <b>security</b>
           </p>
         </div>
       </div>
@@ -38,8 +37,6 @@ const Project = () => {
           </p>
         </div>
       </div>
-
-
     </div>
   );
 };

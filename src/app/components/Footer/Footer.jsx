@@ -5,11 +5,10 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Iliium_logo from './img/Iliium_logo.png';
 
 const Footer = () => (
-
   <footer className="wn-footer">
     <div className="container-fluid">
       <div className="row">
-        <div className="col-lg-4 col-md-4">
+        <div className="col-12 col-lg-4 col-md-4">
           <img src={Iliium_logo} alt="logo_iliium" class="img-fluid home-logo"/>
         </div>
         <div className="blMenu col-lg-4 col-md-4 col-sm-12 mt-lg-4 mt-sm-2">
@@ -33,4 +32,5 @@ const Footer = () => (
   </footer>
 
 );
+
 export default Footer;

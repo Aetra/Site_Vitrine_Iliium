@@ -1,12 +1,10 @@
-
-.titleHeader
-{
+.titleHeader {
   color:white;
   font-size:63px;
 }
-.parallax
-{
-  height:cover;
+
+.parallax {
+  height: 100vh;
   background-image: url(./img/Iliium_landing-page.jpg);
   color:white;
   background-attachment: fixed;
@@ -15,24 +13,19 @@
   background-size:cover;
 }
 
-.logo_iliium
-{
+.logo_iliium {
   display:block;
   margin-left:auto;
   margin-right:auto;
   margin-top:4%;
-  width:40vw;
+  width:36vw;
 }
 
-.secPart
-{
+.secPart {
   padding:4% 0% 0% 6% !important;
 }
 
-
-
-.btnContact
-{
+.btnContact {
   width:22vw;
   height:5vw;
   color: #c3c0cc!important;
@@ -41,60 +34,45 @@
   border-radius:49px !important;
   text-align:center;
 }
-.txtBtn
-{
- font-size: 28px;
-}
-.paddHeader
-{
+
+.paddHeader {
   padding-bottom: 5%;
 }
 
-/* Styles pour téléphones */
+/* Mobile Devices */
 @media (min-width:310px) and (max-width: 460px)
 {
-  .btnContact
-  {
+  .btnContact {
     margin-left: 30% ;
     border-radius:20px;
     width:40% ;
     height:38%;
   }
-  .txtBtn
-  {
-    font-size: 10px;
-    margin-bottom: 10% !important;
-  }
-  .titleHeader
-  {
+
+  .titleHeader {
     color:white;
     font-size:19px;
   }
-  .secPart
-  {
+
+  .secPart {
     padding:4% 0% 0% 6% !important;
   }
 
 }
-/* Styles pour les tablettes */
+
+/* Medium Devices */
 @media (min-width:460px) and (max-width: 768px) {
 
-      .titleHeader
-      {
+      .titleHeader {
         color:white;
         font-size:45px;
       }
-      .btnContact
-      {
+      
+      .btnContact {
         margin-left: 30% !important;
         border-radius:20px !important;
         width:30% !important;
         height:33%;
       }
 
-      }
- /* Styles pour les écrans moyens et grands */
-@media (min-width: 992px) {
-
-
-      }
+}

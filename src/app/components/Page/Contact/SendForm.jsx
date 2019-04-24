@@ -48,12 +48,12 @@ handleSubmit(event)
       <div className="anchor part_Cont container-fluid">
         <div className="stContact">
           <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div className="col-12">
               <h2 className="titleContact">Contact Us</h2>
             </div>
           </div>
-        <div className="row">
-          <div className="blform col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xs-offset-3">
+        <div className="row ">
+          <div className="col-12 col-sm-6 mx-auto">
             <form onSubmit={this.handleSubmit} id="contact-form" class="form" role="form">
               <div className="form-group">
                 <label className="form-label" for="email">Your Email</label>
