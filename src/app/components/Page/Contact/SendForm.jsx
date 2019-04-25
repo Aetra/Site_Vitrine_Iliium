@@ -17,10 +17,10 @@ class SendForm extends React.Component
     //   phone: "",
     //   name:""
     // }
-    var body = "mail="+this.mail.value;
+    var body = "mail="+this.mail.value+"&subject="+this.subject.value+"&message="+this.message.value;
 
 
-  
+
       fetch('https://iliium.com/api/contact',{
         method:'POST',
         body:body,
