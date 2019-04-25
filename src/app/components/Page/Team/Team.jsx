@@ -30,45 +30,58 @@ const Team = () => {
               </p>
             </div>
           </div>
+        </div>
+      </div>
+
+
           <div class="container-fluid">
             <div className="obliqueOne"></div>
             <div className="obliqueTwo"></div>
 
-                <div className="circleSize1">
-                  <img src={Julien} alt="ballJ" className="circleJulien"/>
+              <div className="row">
+                <div className="centerVert col-lg-1 offset-lg-6">
+                  <div className="circleSize1">
+                        <img src={Julien} alt="ballJ" className="circleJulien"/>
+                  </div>
                 </div>
-                <div className="txtSize1">
-                  <p>
+                  <div className="centerVert pl-5 pt-3 col-lg-5">
+                   <p>
                     <b>JULIEN</b>
                     <p className="secTxt">Founder & CEO</p>
                   </p>
+                  </div>
               </div>
 
-            <div className="txtSize2">
-              <p className="txtMaxdec">
-                <b>MAXIME</b>
-                <p className="secTxt">Full stack engineer & CTO</p>
-              </p>
+              <div className="row">
+                <div className="centerVert col-lg-2 offset-lg-8">
+                  <div className="circleSize2">
+                    <p className="pt-3 txtMax">
+                      <b>MAXIME</b>
+                      <p className="secTxt">Full stack engineer & CTO</p>
+                    </p>
+                  </div>
+                </div>
+                  <div className="centerVert col-lg-2">
+                      <img src={Maxime} alt="ballM" className="circleMaxime"/>
+                  </div>
+              </div>
+
+              <div className="row">
+                <div className="centerVert col-lg-1 offset-lg-6">
+                  <div className="circleSize3">
+                      <img src={Eric} alt="ballE" className="circleEric"/>
+                  </div>
+                </div>
+                <div className="centerVert pl-5 pt-4 col-lg-5">
+                  <p className="txtEric">
+                    <b>ERIC</b>
+                    <p className="secTxt">Growth hacker</p>
+                  </p>
+                </div>
+              </div>
             </div>
-              <div className="circleSize2">
-                <img src={Maxime} alt="ballM" className="circleMaxime"/>
-              </div>
-
-              <div className="circleSize3">
-                <img src={Eric} alt="ballE" className="circleEric"/>
-              </div>
-
-              <div className="txtSize3">
-                <p>
-                  <b>ERIC</b>
-                <p className="secTxt">Growth hacker</p>
-                </p>
-              </div>
-
-          </div>
         </div>
-      </div>
-    </div>
+
 
   );
 };
