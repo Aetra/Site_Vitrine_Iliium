@@ -4,7 +4,8 @@
 }
 
 .parallax {
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   background-image: url(./img/Iliium_landing-page.jpg);
   color:white;
   background-attachment: fixed;
@@ -21,13 +22,10 @@
   width:36vw;
 }
 
-.secPart {
-  padding:4% 0% 0% 6% !important;
-}
-
 .btnContact {
   width:22vw;
-  height:5vw;
+  min-width: 120px;
+  min-height: 5vw;
   color: #c3c0cc!important;
   background-color: Transparent !important;
   border-color: white !important;
@@ -36,7 +34,14 @@
 }
 
 /* Mobile Devices */
-@media (min-width: 576px) {
+@media (max-width: 576px) {
+  .titleHeader {
+    font-size: 44px;
+  }
+
+  .logo_iliium {
+    width: 62vw;
+  }
 }
 
 /* Medium Devices */

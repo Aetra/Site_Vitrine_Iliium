@@ -7,13 +7,13 @@ const Header = () => {
   return (
     <header className="parallax container-fluid col-lg-12">
       <div className="row">
-        <div className="firstPart col-lg-12">
+        <div className="firstPart col-lg-12 mt-5">
           <img src={iliium_logo} alt="imglogo" className="logo_iliium"/>
         </div>
       </div>
       <div className="paddHeader row">
-        <div className="secPart col-12">
-          <h1 className="titleHeader font-weight-bold">
+        <div className="col-12 mt-5 pl-5">
+          <h1 className="titleHeader font-weight-bold mb-4">
             What would you do <br/> if you could predict the furture?
           </h1>
           <Link className="linkAn" to="anchor" spy={true} smooth={true} duration={600}>
