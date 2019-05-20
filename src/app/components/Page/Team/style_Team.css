@@ -1,5 +1,6 @@
 .stTeam {
-  height: 120vh;
+  height: 100%;
+  min-height: 100vh;
 }
 
 .logoCrux {
@@ -52,6 +53,10 @@
 .secTxt {
   font-size:13px;
   font-weight: lighter;
+}
+
+.team {
+  height: 100%;
 }
 
 .circleJulien, .circleEric, .circleMaxime {

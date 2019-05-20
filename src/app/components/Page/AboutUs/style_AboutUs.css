@@ -1,5 +1,6 @@
 .stAboutUs {
   height: 100%;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -33,28 +34,28 @@
 }
 
 .logo_bitstamp {
-  width:38%;
+  width:32%;
 }
 .logo_frenchtech {
-  width:38%;
+  width:32%;
   margin-left: 54%;
 }
 .logo_supelec {
-  width:38%;
+  width:32%;
 }
 .logo_yeast {
-  width:38%;
+  width:32%;
   margin-left: 54%;
 }
 .logo_BPI {
-  width:39%;
+  width:33%;
   margin-left: 23%;
 }
 .logo_CA {
-  width:38%;
+  width:32%;
 }
 .logo_BP {
-  width:38%;
+  width:32%;
 }
 
 

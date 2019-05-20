@@ -7,7 +7,7 @@ import Maxime from './img/iliium_team-MAX.png';
 
 const Team = () => {
   return (
-    <div className="stTeam container-fluid col-lg-12">
+    <div className="stTeam container-fluid col-lg-12 justify-content-stretch">
       <div className="obliqueTeam">
       </div>
       <div className="teamRo row">
@@ -34,10 +34,7 @@ const Team = () => {
       </div>
 
 
-          <div class="container-fluid">
-            <div className="obliqueOne"></div>
-            <div className="obliqueTwo"></div>
-
+          <div class="team container d-flex flex-column justify-content-between">
               <div className="row">
                 <div className="centerVert col-lg-1 offset-lg-6">
                   <div className="circleSize1">

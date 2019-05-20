@@ -13,12 +13,12 @@ const AboutUs = () => {
     <div className="stAboutUs container-fluid col-lg-12">
       <div className="obliqueAbout">
       </div>
-      <div className="row">
+      <div className="row justify-content-stretch fill">
         <div className="pt-5 pl-5 col-7">
           <h1 className="titleAboutUs font-weight-bold">A bit<br/> About Us</h1>
           <div className="textbloc">
             <p className="textAboutUs">
-              <b>Founed in July 2017</b>, Iliium begun as a<br/> cryptocurrency mining compagny and evolved to<br/> create a mining pool.
+              <b>Founded in July 2017</b>, Iliium begun as a<br/> cryptocurrency mining compagny and evolved to<br/> create a mining pool.
             </p>
             <p className="textAboutUs">
               This leads the compagny to gain wide <b>knowledge</b><br/> and <b>expertise</b> of the blockchain technology and<br/> the Etherum project.
@@ -29,7 +29,7 @@ const AboutUs = () => {
           </div>
         </div>
         <div className="col-lg-5 col-sm-5 col-5">
-          <div className="flex-d flex-column bd-highligh align-items-stretch">
+          <div className="flex-d flex-column bd-highligh align-items-stretch justify-content-between">
             <div className="flex-shrink bd-highlight align-items-end text-center">
               <img src={bitstamp} alt="log_bitstamp" className="logo_bitstamp"/>
             </div>
