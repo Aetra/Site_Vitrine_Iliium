@@ -61,6 +61,35 @@
 
 /* Mobile Devices */
 @media (max-width: 767px ){
+  .logo_bitstamp {
+    width:80%;
+    margin-left: 0%;
+
+  }
+  .logo_frenchtech {
+    width:80%;
+    margin-left: 0%;
+  }
+  .logo_supelec {
+    width:80%;
+    margin-left: 0%;
+  }
+  .logo_yeast {
+    width:80%;
+    margin-left: 0%;
+  }
+  .logo_BPI {
+    width:80%;
+    margin-left: 0%;
+  }
+  .logo_CA {
+    width:80%;
+    margin-left: 0%;
+  }
+  .logo_BP {
+    width:80%;
+    margin-left: 0%;
+  }
   .obliqueAbout{
     display:none;
   }
@@ -69,24 +98,32 @@
   }
   .stAboutUs{
     background-color:#ccc9c5;
-
     min-height: 100%;
   }
   .titleAboutUs {
-    font-size:28px;
+    font-size:42px !important;
     padding-top:none;
     color:white;
   }
   .textAboutUs {
     padding:3% 0% 0% 0%;
-    font-size: 10px;
+    font-size: 17px;
     color:black;
   }
-
+  .titleAboutUs {
+    font-size:28px;
+    text-align: center;
+    color:white;
+  }
 }
 
 /* Medium Devices */
-@media (min-width:768px) {
+@media (max-width:992px) {
+  .textAboutUs {
+    padding:5% 0% 0% 0%;
+    font-size: 14px;
+    color:black;
+  }
 
 }
 

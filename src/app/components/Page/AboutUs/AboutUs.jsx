@@ -7,9 +7,54 @@ import frenchtech from './img/iliium_elements-frenchtech.png';
 import supelec from './img/iliium_elements-supelec.png';
 import yeast from './img/iliium_elements-yeast.png';
 import bitstamp from './img/iliium_elements-bitstamp.png';
-
+import {isMobileOnly} from 'react-device-detect'
 const AboutUs = () => {
-  return (
+    if(isMobileOnly){
+      return(
+        <div className="stAboutUs container-fluid">
+            <h1 className="pt-3 titleAboutUs">A bit About Us</h1>
+                <p className="textAboutUs">
+                  <b>Founded in July 2017</b>, Iliium begun as a cryptocurrency mining compagny and evolved to create a mining pool.
+                </p>
+                <p className="textAboutUs">
+                  This leads the compagny to gain wide <b>knowledge</b> and <b>expertise</b> of the blockchain technology and the Etherum project.
+                </p>
+                <p className="textAboutUs">
+                  We provide consulting, training and expertise to companies that wishes to <b>implement services</b> using <b>decentralized architecture.</b>
+                </p>
+                <div className="row">
+                  <div className="col-4">
+                    <img src={bitstamp} alt="log_bitstamp" className="logo_bitstamp"/>
+                  </div>
+                  <div className="col-4">
+                    <img src={supelec} alt="supelec" className="logo_supelec"/>
+                  </div>
+                  <div className="col-4">
+                    <img src={yeast} alt="log_yeast" className="logo_yeast"/>
+                  </div>
+                </div>
+                <div className="row">
+                  <div className="offset-2 col-4">
+                    <img src={frenchtech} alt="french" className="logo_frenchtech"/>
+                  </div>
+                  <div className="col-4">
+                    <img src={BPI} alt="log_BPI" className="logo_BPI"/>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-4">
+                    <img src={BP} alt="BPL" className="logo_BP"/>
+                  </div>
+                  <div className="offset-4 col-4">
+                    <img src={CA} alt="ca" className="logo_CA"/>
+                  </div>
+                </div>
+
+            </div>
+      )
+    }
+    return (
     <div className="stAboutUs container-fluid col-lg-12">
       <div className="obliqueAbout">
       </div>
