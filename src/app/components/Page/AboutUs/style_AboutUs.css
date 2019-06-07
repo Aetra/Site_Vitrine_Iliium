@@ -10,10 +10,10 @@
   bottom:0;
   right:0;
   left:0 ;
-  width:64.4vw;
+  width:63.5vw;
   max-height:100%;
   background-image: linear-gradient(#ccc9c5, #cccccc);
-  transform: skewX(-21deg);
+  transform: skewX(-20deg);
   transform-origin: top left;
 }
 

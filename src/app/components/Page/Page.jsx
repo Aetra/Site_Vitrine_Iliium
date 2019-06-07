@@ -8,9 +8,8 @@ const Page = () => {
   return(
   <div className="stPage">
     <AboutUs/>
-
-    {/*  <Project/> */}
-    {/*   <Team/> */}
+    <Project/>
+      <Team/>
     {/*   <SendForm/> */}
 
   </div>
