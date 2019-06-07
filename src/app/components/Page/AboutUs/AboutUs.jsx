@@ -52,7 +52,7 @@ const AboutUs = () => {
                 </div>
 
             </div>
-      )
+      );
     }
     return (
     <div className="stAboutUs container-fluid col-lg-12">

@@ -44,15 +44,10 @@
   font-size:72px;
 }
 
-.txt1Project {
-  font-size: 15px;
+.subTitleProject{
+  font-size:24px;
 }
-
-.txt2Project {
-  font-size: 15px;
-}
-
-.txt3Project {
+.txtProject {
   font-size: 15px;
 }
 
@@ -62,8 +57,39 @@
 }
 
 /* Mobile Devices */
-@media (min-width: 576px)
-{
+@media (max-width: 767px){
+  .titleProject {
+    font-size:42px;
+    padding:0%;
+  }
+  .txtProject {
+    font-size: 14px;
+  }
+  .subTitleProject{
+    font-size: 24px;
+  }
+  .stProject {
+    max-height: 100vh;
+  }
+  .firstBall {
+    width:6vw;
+    height:6vw;
+    border-radius:50%;
+    background:#323635;
+  }
+
+  .secondBall {
+    width:6vw;
+    height:6vw;
+    border-radius:50%;
+    background:#323635;
+  }
+  .thirdBall {
+    width:6vw;
+    height:6vw;
+    border-radius:50%;
+    background:#323635;
+  }
 }
 
 /* Medium Devices */

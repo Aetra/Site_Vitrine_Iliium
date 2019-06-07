@@ -9,7 +9,7 @@ const Page = () => {
   <div className="stPage">
     <AboutUs/>
     <Project/>
-      <Team/>
+    {/*   <Team/> */}  
     {/*   <SendForm/> */}
 
   </div>

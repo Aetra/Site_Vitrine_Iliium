@@ -60,7 +60,7 @@
 
 
 /* Mobile Devices */
-@media (max-width: 767px ){
+@media (max-width: 767px){
   .logo_bitstamp {
     width:80%;
     margin-left: 0%;
@@ -124,7 +124,6 @@
     font-size: 14px;
     color:black;
   }
-
 }
 
 @media (min-width:992px){

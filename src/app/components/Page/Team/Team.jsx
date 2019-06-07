@@ -4,8 +4,14 @@ import Crux from './img/iliium_elements-Cruxpool.png';
 import Eric from './img/iliium_team-ERIC.png';
 import Julien from './img/iliium_team-JULIEN.png';
 import Maxime from './img/iliium_team-MAX.png';
+import {isMobileOnly} from 'react-device-detect';
 
 const Team = () => {
+  if(isMobileOnly){
+    return(
+      <div></div>
+    );
+  }else{
   return (
     <div className="stTeam container-fluid col-lg-12 justify-content-stretch">
       <div className="obliqueTeam">
@@ -78,9 +84,9 @@ const Team = () => {
               </div>
             </div>
         </div>
-
-
   );
+}
+
 };
 
 export default Team;
