@@ -1,5 +1,4 @@
 .stTeam {
-  height: 100%;
   min-height: 100vh;
 }
 
@@ -74,8 +73,11 @@
 
 
 /* Mobile Devices */
-@media (min-width: 576px)
-{
+@media (max-width: 767px){
+  .txtUnderCrux {
+    font-size:10px;
+  }
+
 }
 
 /* Medium Devices */
