@@ -67,16 +67,18 @@
     transform: scaleX(-1);
 }
 .centerVert{
-  display: flex;
-  align-items: center;
+  display: table-cell;
+  vertical-align: middle;
 }
-
+.vertAlign{
+  margin-top: 30%;
+}
 
 /* Mobile Devices */
 @media (max-width: 767px){
   .stTeam {
     min-height: 100vh;
-    background-image:linear-gradient(#b9b9b9,#413d3d);
+    background-color:#3d403f;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -108,9 +110,11 @@
   .secTxt {
     font-size:19px;
     font-weight: lighter;
+    color:white;
   }
   .txtCircle{
     font-size: 20px;
+    color:white;
   }
   .orgn{
     height:80vh;

@@ -21,7 +21,7 @@ const Team = () => {
               <a href="https://cruxpool.com/#/" className="mt-4 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
           </div>
 
-            <div class="mt-5">
+            <div class="vertAlign">
                 <div className="row">
                     <div className="col-3">
                           <img src={Julien} alt="ballJ" className="circleJulien"/>

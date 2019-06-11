@@ -7,40 +7,32 @@ import Crux from './img_Project/iliium_elements-Cruxpool.png';
 const Project = () => {
   if(isMobileOnly){
     return(
-      <div className="stProject">
+      <div className="stProject ">
+        <div className="enfant container-fluid">
         <h1 className="titleProject text-center font-weight-bold">What we do</h1>
         <div className="mt-4 row">
-          <div className="col-9">
-              <h3 className="subTitleProject"> Blockchain </h3>
-              <p className="txtProject">
+          <div className="col-12">
+              <h3 className="mt-5 text-center subTitleProject"> Blockchain </h3>
+              <p className="text-center txtProject">
                 Highly disruptive technology that will <b>revolutionized</b> plenty
                 of activity area starting from finance to industry through computing
               </p>
           </div>
-          <div className="col-3">
-            <div className="mt-5 firstBall"> </div>
-          </div>
         </div>
 
           <div className="row">
-            <div className="offset-1 col-3">
-              <div className="mt-5 secondBall"> </div>
-            </div>
-            <div className="col-8">
-                <h3 className="subTitleProject">Ethereum </h3>
-                <p className="txtProject">
+            <div className="col-12">
+                <h3 className="mt-5 text-center subTitleProject">Ethereum </h3>
+                <p className="text-center txtProject">
                   Ethereum is the leading blockchain technology that provides <b>flexibility</b> and <b>security</b>
                 </p>
             </div>
           </div>
-            <h3 className="pl-4 subTitleProject "> Mining pool </h3>
+            <h3 className="mt-5 text-center subTitleProject "> Mining pool </h3>
           <div className="row">
-            <div className="col-8">
-                <p className="txtProject text-right">We develop mining pool from <b>scratch learning</b> on ourw knowledge of mining
+            <div className="col-12">
+                <p className="text-center txtProject">We develop mining pool from <b>scratch learning</b> on ourw knowledge of mining
                 </p>
-            </div>
-            <div className=" offset-1 col-3">
-              <div className="mt-4 thirdBall"> </div>
             </div>
           </div>
           <div className="text-center col-12 logo">
@@ -55,6 +47,7 @@ const Project = () => {
                   complette tutorials among others features
                 </p>
             </div>
+          </div>
   </div>
 );
   }

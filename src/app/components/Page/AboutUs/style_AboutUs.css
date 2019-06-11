@@ -64,7 +64,7 @@
   .stAboutUs{
     background-color:#ccc9c5;
     min-height: 100vh;
-    background-image:linear-gradient(#bebebe,#4e4d4c);
+    background-image:linear-gradient(#bebebe);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
