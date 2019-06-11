@@ -37,16 +37,16 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="mt-3 row">
+            <h3 className="mt-3 subTitleProject "> Mining pool </h3>
+          <div className="row">
             <div className="col-5">
               <div className="positionTxt3">
-                <h3 className="subTitleProject text-right"> Mining pool </h3>
                 <p className="txtProject text-right">We develop mining pool from <b>scratch learning</b> on ourw knowledge of mining
                 </p>
               </div>
             </div>
             <div className=" col-2">
-              <div className="mt-5 thirdBall"> </div>
+              <div className="mt-4 thirdBall"> </div>
             </div>
             <div className="col-5"></div>
           </div>

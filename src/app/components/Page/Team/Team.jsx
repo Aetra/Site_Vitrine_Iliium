@@ -115,8 +115,8 @@ const Team = () => {
                         <img src={Julien} alt="ballJ" className="circleJulien"/>
                   </div>
                 </div>
-                  <div className="centerVert pl-5 pt-3 col-lg-5">
-                   <p>
+                  <div className="centerVert  pt-3 col-lg-5">
+                   <p className="pl-5">
                     <b>JULIEN</b>
                     <p className="secTxt">Founder & CEO</p>
                   </p>
@@ -143,8 +143,8 @@ const Team = () => {
                       <img src={Eric} alt="ballE" className="circleEric"/>
                   </div>
                 </div>
-                <div className="centerVert pl-5 pt-4 col-lg-5">
-                  <p className="txtEric">
+                <div className="centerVert pt-4 col-lg-5">
+                  <p className="pl-5 txtEric">
                     <b>ERIC</b>
                     <p className="secTxt">Growth hacker</p>
                   </p>
