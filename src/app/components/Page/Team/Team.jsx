@@ -12,38 +12,38 @@ const Team = () => {
       <div className="stTeam container-fluid col-12 justify-content-stretch">
         <div className="teamRo row">
           <div className="col-12">
-            <h1 className="text-center font-weight-bold">Our Team</h1>
-            <h2 className="text-center"><span className="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
+            <h1 className="titleOurTeam text-center font-weight-bold">Our Team</h1>
+            <h2 className="sectitleOurTeam text-center"><span className="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
           </div>
         </div>
 
-          <div className="mt-3 row justify-content-center">
+          <div className="mt-2 row justify-content-center">
               <a href="https://cruxpool.com/#/" className="mt-4 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
           </div>
 
-            <div class="mt-5 container-fluid">
+            <div class="mt-5">
                 <div className="row">
                     <div className="col-3">
                           <img src={Julien} alt="ballJ" className="circleJulien"/>
                     </div>
-                    <div className=" col-9">
-                     <p className="pt-2">
-                      <b>JULIEN</b>
+                    <div className="col-9">
+                     <p className="pl-2 pt-3">
+                      <b className="txtCircle">JULIEN</b>
                       <p className="secTxt">Founder & CEO</p>
                     </p>
                     </div>
                 </div>
 
                 <div className="mt-4 row">
-                  <div className=" col-5 offset-4">
+                  <div className=" col-6 offset-2">
                     <div className="circleSize2">
-                      <p className="pt-2 pl-1 txtMax">
-                        <b>MAXIME</b>
+                      <p className="pt-2 ml-3 txtMax">
+                        <b className="txtCircle">MAXIME</b>
                         <p className="secTxt">Full stack engineer & CTO</p>
                       </p>
                     </div>
                   </div>
-                    <div className="col-3">
+                    <div className="col-4">
                         <img src={Maxime} alt="ballM" className="circleMaxime"/>
                     </div>
                 </div>
@@ -55,8 +55,8 @@ const Team = () => {
                     </div>
                   </div>
                   <div className="col-9">
-                    <p className="mt-2 txtEric">
-                      <b>ERIC</b>
+                    <p className="pl-2 mt-3 txtEric">
+                      <b className="txtCircle">ERIC</b>
                       <p className="secTxt">Growth hacker</p>
                     </p>
                   </div>

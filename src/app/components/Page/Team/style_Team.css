@@ -74,10 +74,9 @@
 
 /* Mobile Devices */
 @media (max-width: 767px){
-  .txtUnderCrux {
-    font-size:12px;
+  .stTeam {
+    min-height: 100vh;
   }
-
   .btnStart {
     background-color: black !important;
     color:white !important;
@@ -85,14 +84,31 @@
     text-align:center;
     border-color: white !important;
     border-radius:49px !important;
-    font-size: 10px !important;
+    font-size: 17px !important;
   }
 
   .circleJulien, .circleEric, .circleMaxime {
-    width:18vw;
+    width:24vw;
   }
-  .logoCrux {
-    height: 15vw;
+  .titleOurTeam {
+    font-size:45px !important;
+    color:black;
+  }
+
+  .sectitleOurTeam {
+    font-size: 30px;
+    color:black;
+  }
+
+  .secTxt {
+    font-size:19px;
+    font-weight: lighter;
+  }
+  .txtCircle{
+    font-size: 20px;
+  }
+  .orgn{
+    height:80vh;
   }
 
 }
