@@ -10,20 +10,20 @@ const Project = () => {
       <div className="stProject">
         <h1 className="titleProject text-center font-weight-bold">What we do</h1>
         <div className="mt-4 row">
-          <div className="col-8">
+          <div className="col-9">
               <h3 className="subTitleProject"> Blockchain </h3>
               <p className="txtProject">
                 Highly disruptive technology that will <b>revolutionized</b> plenty
                 of activity area starting from finance to industry through computing
               </p>
           </div>
-          <div className="col-4">
+          <div className="col-3">
             <div className="mt-5 firstBall"> </div>
           </div>
         </div>
 
           <div className="row">
-            <div className="offset-2 col-2">
+            <div className="offset-1 col-3">
               <div className="mt-5 secondBall"> </div>
             </div>
             <div className="col-8">
@@ -33,22 +33,21 @@ const Project = () => {
                 </p>
             </div>
           </div>
-
-            <h3 className="subTitleProject "> Mining pool </h3>
+            <h3 className="pl-4 subTitleProject "> Mining pool </h3>
           <div className="row">
             <div className="col-8">
                 <p className="txtProject text-right">We develop mining pool from <b>scratch learning</b> on ourw knowledge of mining
                 </p>
             </div>
-            <div className=" col-4">
+            <div className=" offset-1 col-3">
               <div className="mt-4 thirdBall"> </div>
             </div>
           </div>
           <div className="text-center col-12 logo">
               <img src={Crux} alt="logoCrux" className=" logoCrux"/>
           </div>
-              <div className="text-center col-12">
-                <p className="pl-2 txtUnderCrux">
+              <div className=" col-12">
+                <p className="text-center txtUnderCrux">
                   Launched in October 2018, Cruxpool was made to
                   offer the best tools miners can get, Highly
                   efficient and stable, Cruxpool providers real time
