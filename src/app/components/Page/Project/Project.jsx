@@ -9,53 +9,45 @@ const Project = () => {
     return(
       <div className="stProject">
         <h1 className="titleProject text-center font-weight-bold">What we do</h1>
-        <div className="mt-5 row">
-          <div className="col-5">
-            <div className="positionTxt1">
+        <div className="mt-4 row">
+          <div className="col-8">
               <h3 className="subTitleProject"> Blockchain </h3>
               <p className="txtProject">
                 Highly disruptive technology that will <b>revolutionized</b> plenty
                 of activity area starting from finance to industry through computing
               </p>
-            </div>
           </div>
-          <div className="col-2">
+          <div className="col-4">
             <div className="mt-5 firstBall"> </div>
           </div>
-          <div className="col-5"></div>
         </div>
 
-          <div className="mt-3 row">
-            <div className="offset-5 col-2">
+          <div className="row">
+            <div className="offset-2 col-2">
               <div className="mt-5 secondBall"> </div>
             </div>
-            <div className="col-5">
-              <div className="positionTxt2">
+            <div className="col-8">
                 <h3 className="subTitleProject">Ethereum </h3>
                 <p className="txtProject">
                   Ethereum is the leading blockchain technology that provides <b>flexibility</b> and <b>security</b>
                 </p>
-              </div>
             </div>
           </div>
 
-            <h3 className="mt-3 subTitleProject "> Mining pool </h3>
+            <h3 className="subTitleProject "> Mining pool </h3>
           <div className="row">
-            <div className="col-5">
-              <div className="positionTxt3">
+            <div className="col-8">
                 <p className="txtProject text-right">We develop mining pool from <b>scratch learning</b> on ourw knowledge of mining
                 </p>
-              </div>
             </div>
-            <div className=" col-2">
+            <div className=" col-4">
               <div className="mt-4 thirdBall"> </div>
             </div>
-            <div className="col-5"></div>
           </div>
-          <div className="col-12 logo">
-              <img src={Crux} alt="logoCrux" className="pl-1 logoCrux"/>
+          <div className="text-center col-12 logo">
+              <img src={Crux} alt="logoCrux" className=" logoCrux"/>
           </div>
-              <div className=" col-8">
+              <div className="text-center col-12">
                 <p className="pl-2 txtUnderCrux">
                   Launched in October 2018, Cruxpool was made to
                   offer the best tools miners can get, Highly

@@ -11,7 +11,7 @@ const Team = () => {
     return(
       <div className="stTeam container-fluid col-12 justify-content-stretch">
         <div className="teamRo row">
-          <div className="col-12">
+          <div className="mt-4 col-12">
             <h1 className="titleOurTeam text-center font-weight-bold">Our Team</h1>
             <h2 className="sectitleOurTeam text-center"><span className="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
           </div>

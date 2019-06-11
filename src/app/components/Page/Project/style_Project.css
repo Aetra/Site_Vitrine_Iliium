@@ -1,7 +1,6 @@
 .stProject {
   position: relative;
   min-height: 100vh;
-  overflow: hidden;
 }
 
 .obliqueProject {
@@ -60,52 +59,60 @@
 @media (max-width: 767px){
   .stProject {
     position: relative;
-    min-height: 100vh;
+    min-height:100vh;
     overflow: hidden;
     background-image:url(./img_Project/iliium_web-imageoblique.jpg);
     background-attachment: fixed;
-    background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
   }
   .titleProject {
-    font-size:42px;
+    font-size:52px;
     padding:0%;
+    text-shadow: 2px 2px 4px #ffffff;
+
   }
   .txtProject {
-    font-size: 14px;
+    font-size: 20px;
+    color: white;
+  /*  text-shadow: 2px 2px 4px #000000;*/
+    text-shadow: 1px 1px 2px black, 0 0 5px darkblue;
+
   }
   .subTitleProject{
     font-size: 24px;
-  }
-  .stProject {
-    max-height: 100vh;
+    color:white;
+    text-shadow: 2px 2px 4px #e0e0e0;
+
+
   }
   .firstBall {
-    width:6vw;
-    height:6vw;
+    width:12vw;
+    height:12vw;
     border-radius:50%;
     background:#323635;
   }
 
   .secondBall {
-    width:6vw;
-    height:6vw;
+    width:12vw;
+    height:12vw;
     border-radius:50%;
     background:#323635;
   }
   .thirdBall {
-    width:6vw;
-    height:6vw;
+    width:12vw;
+    height:12vw;
     border-radius:50%;
     background:#323635;
   }
   .logoCrux {
-    height: 17vw !important;
+    height: 29vw !important;
   }
 
   .txtUnderCrux {
-    font-size:18px !important;
+    font-size:23px !important;
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
   }
 }
 

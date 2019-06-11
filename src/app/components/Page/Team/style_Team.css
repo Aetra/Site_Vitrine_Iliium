@@ -74,13 +74,6 @@
 
 /* Mobile Devices */
 @media (max-width: 767px){
-  .logoCrux {
-    height:12vw;
-  }
-
-  .txtUnderCrux {
-    font-size:15px;
-  }
   .stTeam {
     min-height: 100vh;
     background-image:linear-gradient(#b9b9b9,#413d3d);
@@ -103,13 +96,13 @@
     width:24vw;
   }
   .titleOurTeam {
-    font-size:45px !important;
-    color:black;
+    font-size:51px !important;
+    color:white;
   }
 
   .sectitleOurTeam {
-    font-size: 30px;
-    color:black;
+    font-size: 32px;
+    color:white;
   }
 
   .secTxt {
