@@ -22,35 +22,34 @@ const AboutUs = () => {
                 <p className="textAboutUs">
                   We provide consulting, training and expertise to companies that wishes to <b>implement services</b> using <b>decentralized architecture.</b>
                 </p>
-                <div className="row">
-                  <div className="col-4">
-                    <img src={bitstamp} alt="log_bitstamp" className="logo_bitstamp"/>
+                  <div className="mt-5 row">
+                    <div className="col-4">
+                      <img src={bitstamp} alt="log_bitstamp" className="logo_bitstamp"/>
+                    </div>
+                    <div className="col-4">
+                      <img src={supelec} alt="supelec" className="logo_supelec"/>
+                    </div>
+                    <div className="col-4">
+                      <img src={yeast} alt="log_yeast" className="logo_yeast"/>
+                    </div>
                   </div>
-                  <div className="col-4">
-                    <img src={supelec} alt="supelec" className="logo_supelec"/>
+                  <div className="row">
+                    <div className="offset-2 col-4">
+                      <img src={frenchtech} alt="french" className="logo_frenchtech"/>
+                    </div>
+                    <div className="col-4">
+                      <img src={BPI} alt="log_BPI" className="logo_BPI"/>
+                    </div>
                   </div>
-                  <div className="col-4">
-                    <img src={yeast} alt="log_yeast" className="logo_yeast"/>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="offset-2 col-4">
-                    <img src={frenchtech} alt="french" className="logo_frenchtech"/>
-                  </div>
-                  <div className="col-4">
-                    <img src={BPI} alt="log_BPI" className="logo_BPI"/>
-                  </div>
-                </div>
 
-                <div className="row">
-                  <div className="col-4">
-                    <img src={BP} alt="BPL" className="logo_BP"/>
+                  <div className="row">
+                    <div className="col-4">
+                      <img src={BP} alt="BPL" className="logo_BP"/>
+                    </div>
+                    <div className="offset-4 col-4">
+                      <img src={CA} alt="ca" className="logo_CA"/>
+                    </div>
                   </div>
-                  <div className="offset-4 col-4">
-                    <img src={CA} alt="ca" className="logo_CA"/>
-                  </div>
-                </div>
-
             </div>
       );
     }

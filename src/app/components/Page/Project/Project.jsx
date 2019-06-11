@@ -58,7 +58,7 @@ const Project = () => {
       <h1 className="titleProject text-center font-weight-bold">What we do</h1>
       <div className="obliqueProject"></div>
       <div className="mt-5 pt-5 row">
-        <div className="centerVert col-lg-3 offset-lg-5">
+        <div className="centerVert col-lg-3 offset-lg-5 col-sm-3 offset-sm-5">
           <div className="positionTxt1">
             <h3 className="text-right subTitleProject"> Blockchain </h3>
             <p className=" text-justify text-right txt1Project">
@@ -67,16 +67,16 @@ const Project = () => {
             </p>
           </div>
         </div>
-        <div className="centerVert col-lg-3">
+        <div className="centerVert col-lg-3 col-sm-3">
           <div className="firstBall"> </div>
         </div>
       </div>
 
       <div className="mt-3 row">
-        <div className="centerVert col-lg-1 offset-lg-8">
+        <div className="centerVert col-lg-1 offset-lg-8 col-sm-1 offset-sm-8">
           <div className="secondBall"> </div>
         </div>
-        <div className="centerVert col-lg-3">
+        <div className="centerVert col-lg-3 col-sm-3">
           <div className="positionTxt2">
             <h3 className="subTitleProject"> Ethereum </h3>
             <p className="txtProject">
@@ -88,14 +88,14 @@ const Project = () => {
       </div>
 
       <div className="mt-3 row">
-        <div className="centerVert col-lg-2 offset-lg-6">
+        <div className="centerVert col-lg-2 offset-lg-6 col-sm-2 offset-sm-6">
           <div className="positionTxt3">
             <h3 className="subTitleProject text-right"> Mining pool </h3>
             <p className="txtProject text-right"> We develop mining pool<br/> from <b>scratch learning</b> on<br/> ourw knowledge of mining
             </p>
           </div>
         </div>
-        <div className="centerVert col-lg-2">
+        <div className="centerVert col-lg-2 col-sm-2">
           <div className="thirdBall"> </div>
         </div>
 

@@ -110,13 +110,13 @@ const Team = () => {
 
           <div class="team container d-flex flex-column justify-content-between">
               <div className="row">
-                <div className="centerVert col-lg-1 offset-lg-6">
+                <div className="centerVert col-lg-1 offset-lg-6 col-sm-1 offset-sm-6">
                   <div className="circleSize1">
                         <img src={Julien} alt="ballJ" className="circleJulien"/>
                   </div>
                 </div>
-                  <div className="centerVert  pt-3 col-lg-5">
-                   <p className="pl-5">
+                  <div className="centerVert  pt-3 col-lg-5  col-sm-5">
+                   <p className="p<l-5">
                     <b>JULIEN</b>
                     <p className="secTxt">Founder & CEO</p>
                   </p>
@@ -124,7 +124,7 @@ const Team = () => {
               </div>
 
               <div className="row">
-                <div className="centerVert col-lg-2 offset-lg-8">
+                <div className="centerVert col-lg-2 offset-lg-8 col-sm-2 offset-sm-8">
                   <div className="circleSize2">
                     <p className="pt-3 txtMax">
                       <b>MAXIME</b>
@@ -132,18 +132,18 @@ const Team = () => {
                     </p>
                   </div>
                 </div>
-                  <div className="centerVert col-lg-2">
+                  <div className="centerVert col-lg-2 col-sm-2">
                       <img src={Maxime} alt="ballM" className="circleMaxime"/>
                   </div>
               </div>
 
               <div className="row">
-                <div className="centerVert col-lg-1 offset-lg-6">
+                <div className="centerVert col-lg-1 offset-lg-6 col-sm-1 offset-sm-6">
                   <div className="circleSize3">
                       <img src={Eric} alt="ballE" className="circleEric"/>
                   </div>
                 </div>
-                <div className="centerVert pt-4 col-lg-5">
+                <div className="centerVert pt-4 col-lg-5 col-sm-5">
                   <p className="pl-5 txtEric">
                     <b>ERIC</b>
                     <p className="secTxt">Growth hacker</p>
