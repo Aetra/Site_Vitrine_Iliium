@@ -74,8 +74,20 @@
 
 /* Mobile Devices */
 @media (max-width: 767px){
+  .logoCrux {
+    height:12vw;
+  }
+
+  .txtUnderCrux {
+    font-size:15px;
+  }
   .stTeam {
     min-height: 100vh;
+    background-image:linear-gradient(#b9b9b9,#413d3d);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
   }
   .btnStart {
     background-color: black !important;

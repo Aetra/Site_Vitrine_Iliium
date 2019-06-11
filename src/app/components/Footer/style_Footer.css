@@ -34,7 +34,14 @@ font-size: 1.7rem;
 /* Mobile Devices */
 @media ( max-width:767px){
   .home-logo {
-    width: 41vw;
+    width: 59vw;
+  }
+  .wn-footer {
+  font-size: 20px;
+  padding-top: 4%;
+  }
+  .iconLnk {
+  font-size: 2.4rem;
   }
 }
 

@@ -35,11 +35,23 @@
 /* Mobile Devices */
 @media (max-width: 576px) {
   .titleHeader {
+    margin-top: 5%;
     font-size: 44px;
   }
 
   .logo_iliium {
-    width: 90vw;
+    width: 95vw;
+  }
+  .btnContact {
+    margin-top: 5%;
+    min-width: 140px;
+    min-height: 4vh;
+    font-size: 19px !important;
+    color: #c3c0cc!important;
+    background-color: Transparent !important;
+    border-color: white !important;
+    border-radius:49px !important;
+    text-align:center;
   }
 }
 

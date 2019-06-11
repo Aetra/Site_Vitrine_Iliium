@@ -8,7 +8,6 @@
 }
 
 .titleContact {
-  margin-top:2%;
   text-align: center;
 }
 
@@ -69,8 +68,33 @@ textarea {
 }
 
 /* Mobile Devices */
-@media (min-width: 576px)
-{
+@media (max-width: 767px){
+  .titleContact {
+    font-size: 40px;
+    text-align: center;
+  }
+  .form-label {
+  	font-size: 25px;
+  	color: #5e9bfc;
+  	margin: 0;
+  	display: block;
+  	opacity: 1;
+  	-webkit-transition: .333s ease top, .333s ease opacity;
+  	transition: .333s ease top, .333s ease opacity;
+  }
+  .form-control {
+    background-color: #f1e5e6;
+  	border-radius: 0 !important;
+    border-style: none none solid none !important;
+  	border-color: #ccc !important;
+    border-width: 0 0 2px 0 !important;
+    box-shadow: none !important;
+    font-size:20px !important;
+  }
+
+  .btn-start-order {
+      font-size: 19px !important;
+  }
 }
 
 /* Medium Devices */

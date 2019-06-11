@@ -39,7 +39,7 @@ class SendForm extends React.Component
         <div className="stContact">
           <div className="row">
             <div className="col-12">
-              <h2 className="titleContact">Contact Us</h2>
+              <h2 className="mt-3 titleContact">Contact Us</h2>
             </div>
           </div>
         <div className="mt-5 row ">
