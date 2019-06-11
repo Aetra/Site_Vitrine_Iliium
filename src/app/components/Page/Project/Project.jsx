@@ -1,6 +1,8 @@
 import React from 'react';
 import './style_Project.css';
 import {isMobileOnly} from 'react-device-detect';
+import Crux from './img_Project/iliium_elements-Cruxpool.png';
+
 
 const Project = () => {
   if(isMobileOnly){
@@ -50,6 +52,18 @@ const Project = () => {
             </div>
             <div className="col-5"></div>
           </div>
+          <div className="col-12 logo">
+              <img src={Crux} alt="logoCrux" className="pl-1 logoCrux"/>
+          </div>
+              <div className=" col-8">
+                <p className="pl-2 txtUnderCrux">
+                  Launched in October 2018, Cruxpool was made to
+                  offer the best tools miners can get, Highly
+                  efficient and stable, Cruxpool providers real time
+                  statistics, professional supports 24/7 and
+                  complette tutorials among others features
+                </p>
+            </div>
   </div>
 );
   }
