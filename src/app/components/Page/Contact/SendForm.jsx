@@ -37,12 +37,12 @@ class SendForm extends React.Component
     return(
       <div className="anchor part_Cont container-fluid">
         <div className="stContact">
-          <div className="mt-5 row">
+          <div className="mt-3 row">
             <div className="col-12">
               <h2 className="titleContact">Contact Us</h2>
             </div>
           </div>
-        <div className="row ">
+        <div className="mt-5 row ">
           <div className="col-12 col-sm-6 mx-auto">
             <form onSubmit={this.handleSubmit} id="contact-form" class="form" role="form">
               <div className="form-group">

@@ -80,9 +80,10 @@
 
   .btnStart {
     background-color: black !important;
-    width:20vw !important;
+    color:white !important;
+    width:24vw !important;
+    height:7vh;
     text-align:center;
-    color: #615f67!important;
     border-color: white !important;
     border-radius:49px !important;
     font-size: 10px !important;

@@ -19,7 +19,7 @@ hr {
   color:white;
 }
 .home-logo {
-  
+
   width: 16vw;
 }
 .linkbl {
@@ -32,8 +32,10 @@ font-size: 1.7rem;
 }
 
 /* Mobile Devices */
-@media (min-width: 576px)
-{
+@media ( max-width:767px){
+  .home-logo {
+    width: 41vw;
+  }
 }
 
 /* Medium Devices */

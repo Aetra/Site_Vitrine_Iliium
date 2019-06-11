@@ -4,7 +4,6 @@
 }
 
 .parallax {
-  height: 100%;
   min-height: 100vh;
   background-image: url(./img/Iliium_landing-page.jpg);
   color:white;
@@ -40,7 +39,7 @@
   }
 
   .logo_iliium {
-    width: 62vw;
+    width: 90vw;
   }
 }
 

@@ -12,12 +12,12 @@ const Header = () => {
         </div>
       </div>
       <div className="paddHeader row">
-        <div className="col-12 mt-5 pl-5">
+        <div className="col-12 mt-3 pl-5">
           <h1 className="titleHeader font-weight-bold mb-4">
             What would you do <br/> if you could predict the furture?
           </h1>
           <Link className="linkAn" to="anchor" spy={true} smooth={true} duration={600}>
-            <button className="mt-2 btnContact btn btn-outline-dark txtBtn" type="submit">
+            <button className="btnContact btn btn-outline-dark txtBtn" type="submit">
               Contact Us
             </button>
           </Link>

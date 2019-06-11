@@ -17,7 +17,7 @@ const Team = () => {
           </div>
         </div>
 
-          <div className="row">
+          <div className="mt-4 row">
               <div className="col-12 logo">
                   <img src={Crux} alt="logoCrux" className="pl-1 logoCrux"/>
               </div>
@@ -36,7 +36,7 @@ const Team = () => {
             </div>
           </div>
 
-            <div class="container-fluid">
+            <div class="mt-4 container-fluid">
                 <div className="row">
                     <div className="col-3">
                           <img src={Julien} alt="ballJ" className="circleJulien"/>
