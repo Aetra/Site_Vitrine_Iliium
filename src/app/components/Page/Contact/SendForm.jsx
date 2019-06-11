@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import './style_Contact.css';
 
 
@@ -37,7 +37,7 @@ class SendForm extends React.Component
     return(
       <div className="anchor part_Cont container-fluid">
         <div className="stContact">
-          <div className="row">
+          <div className="mt-5 row">
             <div className="col-12">
               <h2 className="titleContact">Contact Us</h2>
             </div>

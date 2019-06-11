@@ -10,7 +10,7 @@ const Page = () => {
     <AboutUs/>
     <Project/>
     <Team/>
-    {/*   <SendForm/> */}
+    <SendForm/>
 
   </div>
    );

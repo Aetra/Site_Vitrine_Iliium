@@ -75,7 +75,24 @@
 /* Mobile Devices */
 @media (max-width: 767px){
   .txtUnderCrux {
-    font-size:10px;
+    font-size:12px;
+  }
+
+  .btnStart {
+    background-color: black !important;
+    width:20vw !important;
+    text-align:center;
+    color: #615f67!important;
+    border-color: white !important;
+    border-radius:49px !important;
+    font-size: 10px !important;
+  }
+
+  .circleJulien, .circleEric, .circleMaxime {
+    width:18vw;
+  }
+  .logoCrux {
+    height: 15vw;
   }
 
 }
