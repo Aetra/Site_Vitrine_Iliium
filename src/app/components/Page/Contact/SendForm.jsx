@@ -36,10 +36,11 @@ class SendForm extends React.Component
   render(){
     return(
       <div className="anchor part_Cont container-fluid">
+        <div className="vertAlig">
         <div className="stContact">
           <div className="row">
             <div className="col-12">
-              <h2 className="mt-3 titleContact">Contact Us</h2>
+              <h2 className="titleContact">Contact Us</h2>
             </div>
           </div>
         <div className="mt-5 row ">
@@ -63,6 +64,7 @@ class SendForm extends React.Component
             </form>
           </div>
         </div>
+      </div>
       </div>
     </div>
   );

@@ -61,57 +61,58 @@
 
 /* Mobile Devices */
 @media (max-width: 767px){
-  .stAboutUs{
-    background-color:#ccc9c5;
-    min-height: 100vh;
-    background-image:linear-gradient(#bebebe);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-  }
-  .logo_bitstamp {
-    width:100%;
-    margin-left: 0%;
-  }
-  .logo_frenchtech {
-    width:100%;
-    margin-left: 0%;
-  }
-  .logo_supelec {
-    width:100%;
-    margin-left: 0%;
-  }
-  .logo_yeast {
-    width:100%;
-    margin-left: 0%;
-  }
-  .logo_BPI {
-    width:100%;
-    margin-left: 0%;
-  }
-  .logo_CA {
-    width:100%;
-    margin-left: 0%;
-  }
-  .logo_BP {
-    width:100%;
-    margin-left: 0%;
-  }
 
-  .firstPart{
-    padding: 0 0 0 0;
-  }
-  .titleAboutUs {
-    font-size:49px !important;
-    padding-top:none;
-    color:white;
-  }
-  .textAboutUs {
-    padding:3% 0% 0% 0%;
-    font-size: 22px !important;
-    color:black;
-  }
+ .stAboutUs{
+   background-color:#ccc9c5;
+   min-height: 100vh;
+   background-image:linear-gradient(#bebebe);
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size:cover;
+ }
+ .logo_bitstamp {
+   width:100%;
+   margin-left: 0%;
+ }
+ .logo_frenchtech {
+   width:100%;
+   margin-left: 0%;
+ }
+ .logo_supelec {
+   width:100%;
+   margin-left: 0%;
+ }
+ .logo_yeast {
+   width:100%;
+   margin-left: 0%;
+ }
+ .logo_BPI {
+   width:100%;
+   margin-left: 0%;
+ }
+ .logo_CA {
+   width:100%;
+   margin-left: 0%;
+ }
+ .logo_BP {
+   width:100%;
+   margin-left: 0%;
+ }
+
+ .firstPart{
+   padding: 0 0 0 0;
+ }
+ .titleAboutUs {
+   font-size:49px !important;
+   padding-top:none;
+   color:white;
+ }
+ .textAboutUs {
+   padding:3% 0% 0% 0%;
+   font-size: 22px !important;
+   color:black;
+ }
 
 }
 

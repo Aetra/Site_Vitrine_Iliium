@@ -73,6 +73,12 @@ textarea {
     font-size: 50px;
     text-align: center;
   }
+  .stContact{
+    align-items: center;
+  }
+  .vertAlig{
+
+  }
   .form-label {
   	font-size: 25px;
   	color: #5e9bfc;

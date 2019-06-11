@@ -64,18 +64,17 @@
 
 .circleMaxime {
   -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+  transform: scaleX(-1);
 }
-.centerVert{
-  display: table-cell;
-  vertical-align: middle;
-}
-.vertAlign{
-  margin-top: 30%;
-}
+
+
 
 /* Mobile Devices */
 @media (max-width: 767px){
+  .vertAlign{
+    position:absolute;
+    top:40%;
+  }
   .stTeam {
     min-height: 100vh;
     background-color:#3d403f;
