@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <header className="parallax container-fluid col-lg-12">
       <div className="row">
-        <div className="firstPart col-lg-12 mt-5">
-          <img src={iliium_logo} alt="imglogo" className="logo_iliium"/>
+        <div className="pt-5 firstPart col-lg-12 mt-5">
+          <img src={iliium_logo} alt="imglogo" className="mx-auto logo_iliium"/>
         </div>
       </div>
       <div className="paddHeader row">

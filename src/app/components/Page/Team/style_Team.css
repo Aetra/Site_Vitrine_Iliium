@@ -71,10 +71,11 @@
 
 /* Mobile Devices */
 @media (max-width: 767px){
-  .vertAlign{
+  .vertAlignSecPart{
     position:absolute;
     top:40%;
   }
+
   .stTeam {
     min-height: 100vh;
     background-color:#3d403f;

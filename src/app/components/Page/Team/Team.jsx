@@ -11,17 +11,17 @@ const Team = () => {
     return(
       <div className="stTeam container-fluid col-12 justify-content-stretch">
         <div className="teamRo row">
-          <div className="mt-4 col-12">
+          <div className="mt-5 col-12">
             <h1 className="titleOurTeam text-center font-weight-bold">Our Team</h1>
             <h2 className="sectitleOurTeam text-center"><span className="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
           </div>
         </div>
 
-          <div className="mt-2 row justify-content-center">
+          <div className="mx-auto row justify-content-center">
               <a href="https://cruxpool.com/#/" className="mt-4 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
           </div>
 
-            <div class="vertAlign">
+            <div class="vertAlignSecPart">
                 <div className="row">
                     <div className="col-3">
                           <img src={Julien} alt="ballJ" className="circleJulien"/>

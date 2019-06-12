@@ -8,7 +8,7 @@ const Project = () => {
   if(isMobileOnly){
     return(
       <div className="stProject ">
-        <div className="enfant container-fluid">
+        <div className="containerProject container-fluid">
         <h1 className="titleProject text-center font-weight-bold">What we do</h1>
         <div className="mt-4 row">
           <div className="col-12">
@@ -39,7 +39,7 @@ const Project = () => {
               <img src={Crux} alt="logoCrux" className=" logoCrux"/>
           </div>
               <div className=" col-12">
-                <p className="text-center txtUnderCrux">
+                <p className="text-center txtProject">
                   Launched in October 2018, Cruxpool was made to
                   offer the best tools miners can get, Highly
                   efficient and stable, Cruxpool providers real time
