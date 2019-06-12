@@ -103,7 +103,20 @@ textarea {
 }
 
 /* Medium Devices */
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width:992px) {
+  .titleContact {
+    font-size: 65px;
+  }
+
+  .form-label {
+  	font-size: 28px;
+  }
+  .form-control {
+    font-size:26px !important;
+  }
+  .btn-start-order {
+      font-size: 28px !important;
+  }
 
 }
 /* Large devices */

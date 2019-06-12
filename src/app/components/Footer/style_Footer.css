@@ -38,7 +38,6 @@ font-size: 1.7rem;
   }
   .wn-footer {
   font-size: 20px;
-  padding-top: 4%;
   }
   .iconLnk {
   font-size: 2.4rem;
@@ -46,7 +45,16 @@ font-size: 1.7rem;
 }
 
 /* Medium Devices */
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width:992px) {
+  .home-logo {
+    width: 30vw;
+  }
+  .wn-footer {
+  font-size: 25px;
+  }
+  .iconLnk {
+  font-size: 2.7rem;
+  }
 
 }
 /* Large devices */

@@ -7,8 +7,8 @@ import Crux from './img_Project/iliium_elements-Cruxpool.png';
 const Project = () => {
   if(isMobile){
     return(
-      <div className="stProject ">
-        <div className="containerProject container-fluid">
+      <div className="stProject">
+        <div className="containerProject container-fluid  ">
         <h1 className="titleProject text-center font-weight-bold">What we do</h1>
         <div className="mt-4 row">
           <div className="col-12">
@@ -52,7 +52,7 @@ const Project = () => {
 );
   }
   return (
-    <div className="stProject">
+    <div className="stProject container-fluid">
       <h1 className="titleProject text-center font-weight-bold">What we do</h1>
       <div className="obliqueProject"></div>
       <div className="mt-5 pt-5 row">

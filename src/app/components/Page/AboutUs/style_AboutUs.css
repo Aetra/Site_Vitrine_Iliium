@@ -103,20 +103,20 @@
    padding: 0 0 0 0;
  }
  .titleAboutUs {
-   font-size:49px !important;
+   font-size:49px;
    padding-top:none;
    color:white;
  }
  .textAboutUs {
    padding:3% 0% 0% 0%;
-   font-size: 22px !important;
+   font-size: 22px;
    color:black;
  }
 
 }
 
 /* Medium Devices */
-@media (max-width:992px) {
+@media  (min-width:767px) and (max-width:992px) {
   .stAboutUs{
     background-color:#ccc9c5;
     min-height: 100vh;
@@ -159,13 +159,13 @@
     padding: 0 0 0 0;
   }
   .titleAboutUs {
-    font-size:49px !important;
+    font-size:65px !important;
     padding-top:none;
     color:white;
   }
   .textAboutUs {
     padding:3% 0% 0% 0%;
-    font-size: 22px !important;
+    font-size: 25px !important;
     color:black;
   }
 }

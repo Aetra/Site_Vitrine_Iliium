@@ -30,7 +30,7 @@
 }
 
 /* Mobile Devices */
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .titleHeader {
     margin-top: 5%;
     font-size: 44px;
@@ -44,16 +44,11 @@
     min-width: 140px;
     min-height: 4vh;
     font-size: 19px !important;
-    color: #c3c0cc!important;
-    background-color: Transparent !important;
-    border-color: white !important;
-    border-radius:49px !important;
-    text-align:center;
   }
 }
 
 /* Medium Devices */
-@media (max-width:992px) {
+@media (min-width:768px) and (max-width:992px) {
   .btnContact {
     width:25vw;
     min-height:5vh;
