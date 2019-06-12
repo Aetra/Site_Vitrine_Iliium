@@ -76,7 +76,7 @@ const Team = () => {
           <a href="https://cruxpool.com/#/" className="mt-2 ml-1 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
         </div>
 
-        <div className="part_diag col-4 offset-1">
+        <div className="col-4 offset-1">
           <div className="row">
             <div className="col-12 mx-auto">
               <img src={Crux} alt="logoCrux" className="logoCrux"/>
