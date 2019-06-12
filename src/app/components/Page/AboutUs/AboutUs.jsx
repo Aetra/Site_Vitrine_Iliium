@@ -7,12 +7,12 @@ import frenchtech from './img/iliium_elements-frenchtech.png';
 import supelec from './img/iliium_elements-supelec.png';
 import yeast from './img/iliium_elements-yeast.png';
 import bitstamp from './img/iliium_elements-bitstamp.png';
-import {isMobileOnly} from 'react-device-detect'
+import {isMobile} from 'react-device-detect'
 const AboutUs = () => {
-    if(isMobileOnly){
+    if(isMobile){
       return(
         <div className="stAboutUs container-fluid">
-            <h1 className="pt-3 titleAboutUs">A bit About Us</h1>
+            <h1 className="pt-3 titleAboutUs text-center">A bit About Us</h1>
                 <p className="textAboutUs">
                   <b>Founded in July 2017</b>, Iliium begun as a cryptocurrency mining compagny and evolved to create a mining pool.
                 </p>
@@ -58,7 +58,7 @@ const AboutUs = () => {
       <div className="obliqueAbout">
       </div>
       <div className="row justify-content-stretch fill">
-        <div className="firstPart pt-4 pl-5 col-lg-7 col-sm-7 col-12">
+        <div className="firstPart pt-4 pl-lg-5 col-lg-7 col-sm-7 col-12">
           <h1 className="titleAboutUs font-weight-bold col-12">A bit About Us</h1>
           <div className="textbloc col-lg-12 col-sm-12 col-6">
             <p className="textAboutUs">
@@ -94,8 +94,8 @@ const AboutUs = () => {
               <img src={BPI} alt="log_BPI" className="logo_BPI"/>
             </div>
           </div>
-          </div>
         </div>
+      </div>
     </div>
   );
 };

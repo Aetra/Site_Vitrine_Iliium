@@ -75,7 +75,6 @@
     position:absolute;
     top:40%;
   }
-
   .stTeam {
     min-height: 100vh;
     background-color:#3d403f;
@@ -93,7 +92,6 @@
     border-radius:49px !important;
     font-size: 17px !important;
   }
-
   .circleJulien, .circleEric, .circleMaxime {
     width:24vw;
   }
@@ -119,12 +117,52 @@
   .orgn{
     height:80vh;
   }
-
 }
 
 /* Medium Devices */
-@media (min-width:768px) {
+@media (min-width:767px) and (max-width:992px){
 
+  .stTeam {
+    min-height: 100vh;
+    background-color:#3d403f;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  .btnStart {
+    background-color: black !important;
+    color:white !important;
+    width:52vw !important;
+    text-align:center;
+    border-color: white !important;
+    border-radius:49px !important;
+    font-size: 17px !important;
+  }
+
+  .circleJulien, .circleEric, .circleMaxime {
+    width:20vw;
+  }
+  .titleOurTeam {
+    font-size:51px !important;
+    color:white;
+  }
+  .sectitleOurTeam {
+    font-size: 32px;
+    color:white;
+  }
+  .secTxt {
+    font-size:19px;
+    font-weight: lighter;
+    color:white;
+  }
+  .txtCircle{
+    font-size: 20px;
+    color:white;
+  }
+  .orgn{
+    height:80vh;
+  }
 }
 /* Large devices */
 @media (min-width:992px){

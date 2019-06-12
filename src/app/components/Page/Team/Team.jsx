@@ -4,10 +4,10 @@ import Crux from './img/iliium_elements-Cruxpool.png';
 import Eric from './img/iliium_team-ERIC.png';
 import Julien from './img/iliium_team-JULIEN.png';
 import Maxime from './img/iliium_team-MAX.png';
-import {isMobileOnly} from 'react-device-detect';
+import {isMobile} from 'react-device-detect';
 
 const Team = () => {
-  if(isMobileOnly){
+  if(isMobile){
     return(
       <div className="stTeam container-fluid col-12 justify-content-stretch">
         <div className="teamRo row">
@@ -66,7 +66,7 @@ const Team = () => {
     );
   }else{
   return (
-    <div className="stTeam container-fluid col-lg-12 justify-content-stretch">
+    <div className="stTeam container-fluid col-lg-12 col-sm-12 justify-content-stretch">
       <div className="obliqueTeam">
       </div>
       <div className="teamRo row">

@@ -1,11 +1,11 @@
 import React from 'react';
 import './style_Project.css';
-import {isMobileOnly} from 'react-device-detect';
+import {isMobile} from 'react-device-detect';
 import Crux from './img_Project/iliium_elements-Cruxpool.png';
 
 
 const Project = () => {
-  if(isMobileOnly){
+  if(isMobile){
     return(
       <div className="stProject ">
         <div className="containerProject container-fluid">
@@ -70,7 +70,7 @@ const Project = () => {
         </div>
       </div>
 
-      <div className="mt-3 row">
+      <div className="mt-3-lg row">
         <div className="centerVert col-lg-1 offset-lg-8 col-sm-1 offset-sm-8">
           <div className="secondBall"> </div>
         </div>
@@ -85,8 +85,8 @@ const Project = () => {
 
       </div>
 
-      <div className="mt-3 row">
-        <div className="centerVert col-lg-2 offset-lg-6 col-sm-2 offset-sm-6">
+      <div className="mt-3-lg row">
+        <div className="centerVert col-lg-2 offset-lg-6 col-sm-3 offset-sm-5">
           <div className="positionTxt3">
             <h3 className="subTitleProject text-right"> Mining pool </h3>
             <p className="txtProject text-right"> We develop mining pool<br/> from <b>scratch learning</b> on<br/> ourw knowledge of mining
