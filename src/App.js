@@ -7,9 +7,9 @@ import './styles/font.css'
 
 const App = () => (
   <div className="AllApp">
-  <Header/>
-  <Page/>
-  <Footer/>
+    <Header/>
+    <Page/>
+    <Footer/>
   </div>
 );
 
