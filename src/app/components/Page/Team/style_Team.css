@@ -5,7 +5,7 @@
   font-family: 'Roboto', sans-serif;
   font-family: 'Montserrat', sans-serif;*/
   font-family: 'Raleway', sans-serif;
-  
+
 }
 .logoCrux {
   height: 8vw;
@@ -69,10 +69,6 @@
 
 /* Mobile Devices */
 @media (max-width: 767px){
-  .vertAlignSecPart{
-    position:absolute;
-    top:40%;
-  }
   .stTeam {
     min-height: 100vh;
     background-color:#3d403f;
