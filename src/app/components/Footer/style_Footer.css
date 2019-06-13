@@ -4,6 +4,11 @@ color: white;
 background-color: #303030;
 font-size: 15px;
 padding-top: 4%;
+/*font-family: 'Noto Sans', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+font-family: 'Raleway', sans-serif;
 }
 hr {
   background-color: #ECF8DD;
@@ -29,6 +34,9 @@ hr {
 
 .iconLnk {
 font-size: 1.7rem;
+}
+a .fa {
+color: white;
 }
 
 /* Mobile Devices */

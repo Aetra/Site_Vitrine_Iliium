@@ -7,7 +7,7 @@ import frenchtech from './img/iliium_elements-frenchtech.png';
 import supelec from './img/iliium_elements-supelec.png';
 import yeast from './img/iliium_elements-yeast.png';
 import bitstamp from './img/iliium_elements-bitstamp.png';
-import {isMobile} from 'react-device-detect'
+import {isMobile} from 'react-device-detect';
 const AboutUs = () => {
     if(isMobile){
       return(
@@ -59,7 +59,7 @@ const AboutUs = () => {
       </div>
       <div className="row justify-content-stretch fill">
         <div className="firstPart pt-4 pl-lg-5 col-lg-7 col-sm-7 col-12">
-          <h1 className="titleAboutUs font-weight-bold col-12">A bit About Us</h1>
+          <h1 className="titleAboutUs font-weight-bold col-12">A bit<br/> about us</h1>
           <div className="textbloc col-lg-12 col-sm-12 col-6">
             <p className="textAboutUs">
               <b>Founded in July 2017</b>, Iliium begun as a<br/> cryptocurrency mining compagny and evolved to<br/> create a mining pool.

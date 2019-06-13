@@ -9,7 +9,7 @@ import {isMobile} from 'react-device-detect';
 const Team = () => {
   if(isMobile){
     return(
-      <div className="stTeam container-fluid col-12 justify-content-stretch">
+      <div className="stTeam  flex justify-content-space-between col-12 justify-content-stretch">
         <div className="teamRo row">
           <div className="mt-5 col-12">
             <h1 className="titleOurTeam text-center font-weight-bold">Our Team</h1>
@@ -18,10 +18,10 @@ const Team = () => {
         </div>
 
           <div className="mx-auto row justify-content-center">
-              <a href="https://cruxpool.com/#/" className="mt-4 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
+              <a href="https://www.linkedin.com/company/iliium/" className="mt-4 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
           </div>
 
-            <div class="vertAlignSecPart">
+            <div className="vertAlignSecPart">
                 <div className="row">
                     <div className="centerVert col-3">
                           <img src={Julien} alt="ballJ" className="circleJulien"/>
@@ -70,17 +70,17 @@ const Team = () => {
       <div className="obliqueTeam">
       </div>
       <div className="teamRo row">
-        <div className="col-6 pt-5 mt-5">
+        <div className="col-7 pt-5 mt-5">
           <h1 className="titleOurTeam font-weight-bold">Our Team</h1>
           <h2 className=" pl-2 sectitleOurTeam"><span className="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
-          <a href="https://cruxpool.com/#/" className="mt-2 ml-1 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
+          <a href="https://www.linkedin.com/company/iliium/" className="mt-2 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
         </div>
 
         <div className="col-4 offset-1">
-          <div className="row">
-            <div className="col-12 mx-auto">
-              <img src={Crux} alt="logoCrux" className="logoCrux"/>
-              <p className="pl-2 txtUnderCrux">
+          <div className="row mx-auto">
+            <div className="col-12 ">
+              <a href="https://www.cruxpool.com"> <img src={Crux} alt="logoCrux" className="logoCrux"/></a>
+              <p className="pl-4 txtUnderCrux">
               Launched in October 2018, Cruxpool was made to
               offer the best tools miners can get, Highly
               efficient and stable, Cruxpool providers real time
@@ -93,7 +93,7 @@ const Team = () => {
       </div>
 
 
-          <div class="team container d-flex flex-column justify-content-between">
+          <div className="team container d-flex flex-column justify-content-between">
               <div className="row">
                 <div className="centerVert col-lg-2 offset-lg-6">
                   <div className="circleSize1">

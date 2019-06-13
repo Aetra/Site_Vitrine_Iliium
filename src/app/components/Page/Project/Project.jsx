@@ -36,7 +36,7 @@ const Project = () => {
             </div>
           </div>
           <div className="text-center col-12 logo">
-              <img src={Crux} alt="logoCrux" className=" logoCrux"/>
+            <a href="https://www.cruxpool.com"><img src={Crux} alt="logoCrux" className=" logoCrux"/></a>
           </div>
               <div className=" col-12">
                 <p className="text-center txtProject">

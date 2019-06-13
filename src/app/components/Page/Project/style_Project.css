@@ -1,6 +1,11 @@
 .stProject {
   position: relative;
   min-height: 100vh;
+  /*font-family: 'Noto Sans', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Raleway', sans-serif;
 }
 
 .obliqueProject {
