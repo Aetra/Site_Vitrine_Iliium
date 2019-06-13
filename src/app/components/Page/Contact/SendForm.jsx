@@ -43,7 +43,7 @@ class SendForm extends React.Component
               <h2 className="titleContact">Contact Us</h2>
             </div>
           </div>
-        <div className="row ">
+        <div className="mt-3 row ">
           <div className="col-12 mx-auto">
             <form onSubmit={this.handleSubmit} id="contact-form" className="form" role="form">
               <div className="form-group">
