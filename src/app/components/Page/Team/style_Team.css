@@ -7,6 +7,7 @@
   font-family: 'Raleway', sans-serif;
 
 }
+
 .logoCrux {
   height: 8vw;
 }
@@ -69,6 +70,9 @@
 
 /* Mobile Devices */
 @media (max-width: 767px){
+  .stTeam2{
+    min-height:30%;
+  }
   .stTeam {
     min-height: 100vh;
     background-color:#3d403f;

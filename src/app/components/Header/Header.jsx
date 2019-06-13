@@ -5,23 +5,25 @@ import { Link} from 'react-scroll'
 
 const Header = () => {
   return (
-    <header className="parallax container-fluid col-lg-12">
+    <header className="d-flex parallax ">
+      <div className=" align-self-center container-fluid">
       <div className="row">
-        <div className="pt-5 firstPart col-lg-12 mt-5">
+        <div className="pt-5 firstPart col-lg-12">
           <img src={iliium_logo} alt="imglogo" className="mx-auto logo_iliium"/>
         </div>
       </div>
       <div className="paddHeader row">
-        <div className="col-12 mt-3 pl-5">
+        <div className="col-12 pl-5">
           <h1 className="titleHeader font-weight-bold mb-4">
             What would you do<br/> if you could predict the future?
           </h1>
           <Link className=" linkAn" to="anchor" spy={true} smooth={true} duration={600}>
-            <button className="mb-2 btnContact btn btn-outline-dark txtBtn" type="submit">
+            <button className="btnContact btn btn-outline-dark txtBtn" type="submit">
               Contact Us
             </button>
           </Link>
         </div>
+      </div>
       </div>
     </header>
   );

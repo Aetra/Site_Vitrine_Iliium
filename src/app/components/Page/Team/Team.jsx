@@ -9,20 +9,17 @@ import {isMobile} from 'react-device-detect';
 const Team = () => {
   if(isMobile){
     return(
-      <div className="stTeam col-12">
+      <div className="container-fluid stTeam col-12 d-flex flex-column justify-content-between">
         <div className="teamRo row">
           <div className="mt-5 col-12">
             <h1 className="titleOurTeam text-center font-weight-bold">Our Team</h1>
             <h2 className="sectitleOurTeam text-center"><span className="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
           </div>
         </div>
-
           <div className="mx-auto row justify-content-center">
               <a href="https://www.linkedin.com/company/iliium/" className="mt-4 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
           </div>
-
-            <div className="">
-              <div className="container-fluid">
+          <div className="container-fluid">
                 <div className="row">
                     <div className="centerVert col-3">
                           <img src={Julien} alt="ballJ" className="circleJulien"/>
@@ -63,7 +60,6 @@ const Team = () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div>
     );
   }else{
