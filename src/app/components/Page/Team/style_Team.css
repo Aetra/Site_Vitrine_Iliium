@@ -1,11 +1,7 @@
 .stTeam {
   min-height: 100vh;
-  /*font-family: 'Noto Sans', sans-serif;
-  font-family: 'PT Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Montserrat', sans-serif;*/
   font-family: 'Raleway', sans-serif;
-
+  font-weight: 500;
 }
 
 .logoCrux {
@@ -36,7 +32,7 @@
   color:white;
 }
 .fnt {
-  font-weight: lighter;
+  font-weight:lighter !important;
 }
 .btnStart {
   background-color: white !important;
@@ -69,7 +65,7 @@
 }
 
 /* Mobile Devices */
-@media (max-width: 767px){
+@media (max-width: 767.98px){
   .stTeam2{
     min-height:30%;
   }
@@ -115,7 +111,7 @@
 }
 
 /* Medium Devices */
-@media (min-width:767px) and (max-width:992px){
+@media (min-width:768px) and (max-width:991.98px){
   .centerVert{
     display: flex;
     align-items: center;

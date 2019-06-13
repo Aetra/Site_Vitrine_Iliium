@@ -1,11 +1,8 @@
 .stProject {
   position: relative;
   min-height: 100vh;
-  /*font-family: 'Noto Sans', sans-serif;
-  font-family: 'PT Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Montserrat', sans-serif;*/
   font-family: 'Raleway', sans-serif;
+  font-weight: 500;
 }
 
 .obliqueProject {
@@ -49,10 +46,11 @@
 }
 
 .subTitleProject{
-  font-size:24px;
+  font-size:31px;
+  font-weight: 700;
 }
 .txtProject {
-  font-size: 15px;
+  font-size: 19px;
 }
 
 .centerVert{
@@ -61,7 +59,7 @@
 }
 
 /* Mobile Devices */
-@media (max-width: 767px){
+@media (max-width: 767.98px){
   .stProject {
     position: relative;
     min-height:100vh;
@@ -86,7 +84,6 @@
   .txtProject {
     font-size: 22px;
     color: white;
-  /*  text-shadow: 2px 2px 4px #000000;*/
     text-shadow: 1px 1px 2px black, 0 0 5px darkblue;
     opacity: 1;
 
@@ -102,7 +99,7 @@
 }
 
 /* Medium Devices */
-@media (min-width:767px) and (max-width:992px) {
+@media (min-width:768px) and (max-width:991.98px) {
   .stProject {
     position: relative;
     min-height:100vh;

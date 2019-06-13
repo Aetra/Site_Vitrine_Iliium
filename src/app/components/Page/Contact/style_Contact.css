@@ -1,14 +1,11 @@
 .part_Cont {
   min-height:100vh;
-  /*font-family: 'Noto Sans', sans-serif;
-  font-family: 'PT Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Montserrat', sans-serif;*/
   font-family: 'Raleway', sans-serif;
 }
 
 .titleContact {
   text-align: center;
+  font-size: 50px;
 }
 
 textarea {
@@ -68,7 +65,7 @@ textarea {
 }
 
 /* Mobile Devices */
-@media (max-width: 767px){
+@media (max-width: 767.98px){
   .titleContact {
     font-size: 50px;
     text-align: center;
@@ -89,7 +86,7 @@ textarea {
 }
 
 /* Medium Devices */
-@media (min-width:768px) and (max-width:992px) {
+@media (min-width:768px) and (max-width:991.98px) {
   .titleContact {
     font-size: 65px;
   }

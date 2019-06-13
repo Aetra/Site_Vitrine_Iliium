@@ -59,7 +59,7 @@ const Project = () => {
         <div className="centerVert col-lg-3 offset-lg-5 col-sm-3 offset-sm-5">
           <div className="positionTxt1">
             <h3 className="text-right subTitleProject"> Blockchain </h3>
-            <p className=" text-justify text-right txt1Project">
+            <p className=" text-justify text-right txtProject">
               Highly disruptive technology that will <b>revolutionized</b> plenty
               of activity area starting from finance to industry through computing
             </p>

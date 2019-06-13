@@ -11,10 +11,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
-  /*font-family: 'Noto Sans', sans-serif;
-  font-family: 'PT Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Montserrat', sans-serif;*/
   font-family: 'Raleway', sans-serif;
 }
 
@@ -35,7 +31,7 @@
 }
 
 /* Mobile Devices */
-@media (max-width: 767px) {
+@media (max-width: 767.98px) {
   .titleHeader {
     margin-top: 5%;
     font-size: 44px;
@@ -53,21 +49,11 @@
 }
 
 /* Medium Devices */
-@media (min-width:768px) and (max-width:992px) {
+@media (min-width:768px) and (max-width:991.98px) {
   .btnContact {
     width:25vw;
     min-height:5vh;
     font-size:30px !important;
     text-align:center;
   }
-
-}
-/* Large devices */
-@media (min-width:992px) {
-
-}
-
-/* Extra large devices */
-@media (min-width:1200px) {
-
 }
