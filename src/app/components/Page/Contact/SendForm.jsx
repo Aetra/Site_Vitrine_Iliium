@@ -1,7 +1,6 @@
  import React from 'react';
 import './style_Contact.css';
 
-
 class SendForm extends React.Component
 {
   constructor(props) {
@@ -11,7 +10,6 @@ class SendForm extends React.Component
   handleSubmit(event)
   {
     var body = "mail="+this.mail.value+"&subject="+this.subject.value+"&message="+this.message.value;
-
       fetch('https://iliium.com/api/contact',{
         method:'POST',
         body:body,
@@ -30,7 +28,6 @@ class SendForm extends React.Component
         {
           window.alert('Contact failled, please retry');
         });
-
     event.preventDefault();
   }
   render(){
@@ -68,7 +65,5 @@ class SendForm extends React.Component
       </div>
     </div>
   );
-
-  }
-}
+}}
 export default SendForm;

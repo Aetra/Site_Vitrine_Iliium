@@ -3,7 +3,6 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
-
 .logoCrux {
   height: 8vw;
 }
@@ -97,7 +96,6 @@
     font-size: 32px;
     color:white;
   }
-
   .secTxt {
     font-size:19px;
     font-weight: lighter;
@@ -107,7 +105,6 @@
     font-size: 20px;
     color:white;
   }
-
 }
 
 /* Medium Devices */
@@ -133,7 +130,6 @@
     border-radius:49px !important;
     font-size: 19px !important;
   }
-
   .circleJulien, .circleEric, .circleMaxime {
     width:20vw;
   }
@@ -154,13 +150,4 @@
     font-size: 20px;
     color:white;
   }
-}
-/* Large devices */
-@media (min-width:992px){
-
-}
-
-/* Extra large devices */
-@media (min-width:1200px){
-
 }

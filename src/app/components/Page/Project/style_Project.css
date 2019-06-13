@@ -4,7 +4,6 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
 }
-
 .obliqueProject {
   position: absolute;
   top: 0;
@@ -19,14 +18,12 @@
   transform: skewX(-20deg);
   transform-origin: top left;
 }
-
 .firstBall {
   width:3vw;
   height:3vw;
   border-radius:50%;
   background:#323635;
 }
-
 .secondBall {
   width:3vw;
   height:3vw;
@@ -39,12 +36,10 @@
   border-radius:50%;
   background:#323635;
 }
-
 .titleProject {
   padding:2% 0% 0% 43%;
   font-size:72px;
 }
-
 .subTitleProject{
   font-size:31px;
   font-weight: 700;
@@ -52,7 +47,6 @@
 .txtProject {
   font-size: 19px;
 }
-
 .centerVert{
   display: flex;
   align-items: center;
@@ -79,14 +73,12 @@
     font-size:57px;
     padding:0%;
     text-shadow: 2px 2px 4px #ffffff;
-
   }
   .txtProject {
     font-size: 22px;
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 5px darkblue;
     opacity: 1;
-
   }
   .subTitleProject{
     font-size: 29px;
@@ -133,12 +125,4 @@
   .logoCrux{
     height: 18vw !important;
   }
-}
-/* Large devices */
-@media (max-width:992px){
-}
-
-/* Extra large devices */
-@media (min-width:1200px){
-
 }

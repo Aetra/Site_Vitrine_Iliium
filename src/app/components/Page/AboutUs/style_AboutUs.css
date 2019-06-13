@@ -4,7 +4,6 @@
   font-family: 'Raleway', sans-serif;
   font-weight:500;
 }
-
 .obliqueAbout {
   position: absolute;
   top: 0;
@@ -17,23 +16,19 @@
   transform: skewX(-20deg);
   transform-origin: top left;
 }
-
 .titleAboutUs {
   font-size:6vw;
   color:white;
 }
-
 .textbloc {
   margin-top: 3%;
   color:black;
   font-size:1.4vw;
 }
-
 .textAboutUs {
   padding:3% 0% 0% 0%;
   color:black;
 }
-
 .logo_bitstamp {
   width:32%;
 }
@@ -58,7 +53,6 @@
 .logo_BP {
   width:32%;
 }
-
 
 /* Mobile Devices */
 @media (max-width: 767.98px){
@@ -109,7 +103,6 @@
    font-size: 22px;
    color:black;
  }
-
 }
 
 /* Medium Devices */
@@ -162,12 +155,4 @@
     font-size: 25px;
     color:black;
   }
-}
-
-@media (min-width:992px){
-
-}
-
-@media (min-width:1200px){
-
 }

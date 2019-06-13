@@ -2,16 +2,13 @@
   min-height:100vh;
   font-family: 'Raleway', sans-serif;
 }
-
 .titleContact {
   text-align: center;
   font-size: 50px;
 }
-
 textarea {
 	resize: none;
 }
-
 .form-label {
 	font-size: 12px;
 	color: #5e9bfc;
@@ -21,7 +18,6 @@ textarea {
 	-webkit-transition: .333s ease top, .333s ease opacity;
 	transition: .333s ease top, .333s ease opacity;
 }
-
 .form-control {
   background-color: #f1e5e6;
 	border-radius: 0 !important;
@@ -30,20 +26,16 @@ textarea {
   border-width: 0 0 2px 0 !important;
   box-shadow: none !important;
 }
-
 .form-control:focus {
 	box-shadow: none !important;
 	border-color: #5e9bfc !important;
 }
-
 .js-hide-label {
 	opacity: 0;
 }
-
 .js-unhighlight-label {
 	color: #999
 }
-
 .btn-start-order {
 	background: 0 0 #ffffff !important;
     border: 1px solid #2f323a !important;
@@ -57,7 +49,6 @@ textarea {
     text-transform: uppercase !important;
     transition: all 0.25s ease 0s !important;
 }
-
 .btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
 	border-color: #5e9bfc !important;
   border-radius:65% !important;
@@ -79,7 +70,6 @@ textarea {
   .form-control {
     font-size:20px !important;
   }
-
   .btn-start-order {
       font-size: 19px !important;
   }
@@ -90,7 +80,6 @@ textarea {
   .titleContact {
     font-size: 65px;
   }
-
   .form-label {
   	font-size: 28px;
   }
@@ -100,14 +89,4 @@ textarea {
   .btn-start-order {
       font-size: 28px !important;
   }
-
-}
-/* Large devices */
-@media (min-width:992px){
-
-}
-
-/* Extra large devices */
-@media (min-width:1200px){
-
 }

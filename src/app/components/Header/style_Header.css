@@ -2,7 +2,6 @@
   color:white;
   font-size:61px;
 }
-
 .parallax {
   min-height: 110vh;
   background-image: url(./img/Iliium_landing-page.jpg);
@@ -13,12 +12,10 @@
   background-size:cover;
   font-family: 'Raleway', sans-serif;
 }
-
 .logo_iliium {
   display:block;
   width:55vw;
 }
-
 .btnContact {
   width:20vw;
   min-height:5vh;

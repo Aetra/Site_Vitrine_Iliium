@@ -3,7 +3,6 @@ import './style_Project.css';
 import {isMobile} from 'react-device-detect';
 import Crux from './img_Project/iliium_elements-Cruxpool.png';
 
-
 const Project = () => {
   if(isMobile){
     return(
@@ -19,7 +18,6 @@ const Project = () => {
               </p>
           </div>
         </div>
-
           <div className="row">
             <div className="col-12">
                 <h3 className="mt-5 text-center subTitleProject">Ethereum </h3>
@@ -69,7 +67,6 @@ const Project = () => {
           <div className="firstBall"> </div>
         </div>
       </div>
-
       <div className="mt-3-lg row">
         <div className="centerVert col-lg-1 offset-lg-8 col-sm-1 offset-sm-8">
           <div className="secondBall"> </div>
@@ -82,9 +79,7 @@ const Project = () => {
             </p>
           </div>
         </div>
-
       </div>
-
       <div className="mt-3-lg row">
         <div className="centerVert col-lg-2 offset-lg-6 col-sm-3 offset-sm-5">
           <div className="positionTxt3">
@@ -96,7 +91,6 @@ const Project = () => {
         <div className="centerVert col-lg-2 col-sm-2">
           <div className="thirdBall"> </div>
         </div>
-
       </div>
 </div>
   );

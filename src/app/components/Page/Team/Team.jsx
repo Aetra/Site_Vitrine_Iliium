@@ -31,7 +31,6 @@ const Team = () => {
                     </p>
                     </div>
                 </div>
-
                 <div className="centerVert mt-4 row">
                   <div className=" col-6 offset-2 col-sm-5 offset-sm-4">
                     <div className=" circleSize2">
@@ -45,7 +44,6 @@ const Team = () => {
                         <img src={Maxime} alt="ballM" className="circleMaxime"/>
                     </div>
                 </div>
-
                 <div className="mt-4 row">
                   <div className="centerVert col-3">
                     <div className="centerVert circleSize3">
@@ -73,7 +71,6 @@ const Team = () => {
           <h2 className=" pl-2 sectitleOurTeam"><span className="fnt"> WE ARE HIRING</span><b> TALENT</b></h2>
           <a href="https://www.linkedin.com/company/iliium/" className="mt-2 btnStart btn btn-outline-dark btn-lg active" role="button" aria-pressed="true">GET STARTED</a>
         </div>
-
         <div className="col-4 offset-1">
           <div className="row mx-auto">
             <div className="col-12 ">
@@ -89,8 +86,6 @@ const Team = () => {
           </div>
         </div>
       </div>
-
-
           <div className="team container d-flex flex-column justify-content-between">
               <div className="row">
                 <div className="centerVert col-lg-2 offset-lg-6">
@@ -105,7 +100,6 @@ const Team = () => {
                   </p>
                   </div>
               </div>
-
               <div className="row">
                 <div className="centerVert col-lg-2 offset-lg-8">
                   <div className="circleSize2">
@@ -119,7 +113,6 @@ const Team = () => {
                       <img src={Maxime} alt="ballM" className="circleMaxime"/>
                   </div>
               </div>
-
               <div className="row">
                 <div className="centerVert col-lg-2 offset-lg-6">
                   <div className="circleSize3">

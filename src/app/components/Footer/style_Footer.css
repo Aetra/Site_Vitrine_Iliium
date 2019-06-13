@@ -20,14 +20,12 @@ hr {
   color:white;
 }
 .home-logo {
-
   width: 16vw;
 }
 .linkbl {
   color: white;
   padding-left: 45%;
 }
-
 .iconLnk {
 font-size: 1.7rem;
 }
@@ -36,7 +34,7 @@ color: white;
 }
 
 /* Mobile Devices */
-@media ( max-width:767px){
+@media ( max-width:767.98px){
   .home-logo {
     width: 69vw;
   }
@@ -49,7 +47,7 @@ color: white;
 }
 
 /* Medium Devices */
-@media (min-width:768px) and (max-width:992px) {
+@media (min-width:768px) and (max-width:991.98px) {
   .home-logo {
     width: 30vw;
   }
